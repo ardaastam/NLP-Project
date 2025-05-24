@@ -2,7 +2,7 @@
 
 This repository presents an NLP-based pipeline for estimating the socioeconomic status (SES) of social media users through occupation inference from their self-written profile descriptions.
 
----
+
 
 ##  Project Overview
 
@@ -12,7 +12,7 @@ Millions of users publish their bios on social media without structured occupati
 - SES class (Low / Middle / High)
 - Country (from fuzzy location matching)
 
----
+
 
 ##  Methodology
 
@@ -33,7 +33,7 @@ Millions of users publish their bios on social media without structured occupati
    - Handles free-text city/region names like “Kartal”, “Istanbul/Çengelköy”  
    - Uses city-to-country dictionaries & fuzzy logic
 
----
+
 
 ##  Project Structure
 
@@ -46,7 +46,7 @@ Millions of users publish their bios on social media without structured occupati
 └── requirements.txt
 ```
 
----
+
 
 ##  Installation
 
@@ -54,7 +54,6 @@ Millions of users publish their bios on social media without structured occupati
 pip install -r requirements.txt
 ```
 
----
 
 ##  Example Usage
 
@@ -83,7 +82,7 @@ python scripts/ses_classifier.py
 - Ratner et al. (2017). *Snorkel: Weak Supervision*  
 - Çöltekin, Ç. (2010). *Turkish Morphological Analyzer*
 
----
+
 
 ##  Author
 
