@@ -1,10 +1,10 @@
-# 📊 Socioeconomic Status Inference from Social Media
+#  Socioeconomic Status Inference from Social Media
 
 This repository presents an NLP-based pipeline for estimating the socioeconomic status (SES) of social media users through occupation inference from their self-written profile descriptions.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Millions of users publish their bios on social media without structured occupational or demographic information. We aim to infer:
 - Occupation (via keyword matching)
@@ -14,7 +14,7 @@ Millions of users publish their bios on social media without structured occupati
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 1. **Regex + Keyword Matching**  
    - English & Turkish occupation terms  
@@ -35,7 +35,7 @@ Millions of users publish their bios on social media without structured occupati
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── data/                   # Input and enriched user data
@@ -48,7 +48,7 @@ Millions of users publish their bios on social media without structured occupati
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Example Usage
+##  Example Usage
 
 ```bash
 python scripts/occupation_matcher.py
@@ -64,18 +64,18 @@ python scripts/isei_mapper.py
 python scripts/ses_classifier.py
 ```
 
----
 
-## 📈 Outputs
 
-- 🌍 Choropleth maps of SES distribution  
-- 🧠 TF-IDF & WordClouds per SES class  
-- 📊 Occupation–ISEI summaries  
-- 📁 CSV of all users with inferred SES
+##  Outputs
 
----
+-  Choropleth maps of SES distribution  
+-  TF-IDF & WordClouds per SES class  
+-  Occupation–ISEI summaries  
+-  CSV of all users with inferred SES
 
-## 📚 References
+
+
+##  References
 
 - Ganzeboom, H. B. G., et al. (1992). *ISEI of Occupational Status*  
 - ISCO-08 occupational classification  
@@ -85,6 +85,6 @@ python scripts/ses_classifier.py
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-This project was developed as part of an NLP university course project.
+This project was developed as part of an NLP university course project from Arda Astam.
