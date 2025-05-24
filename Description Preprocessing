@@ -1,0 +1,29 @@
+# Description Preprocessing
+import pandas as pd
+import re
+import json
+description_json = "politus_db_user_descriptions.jsonl"
+
+# read df without losing utf-8 characters
+df = pd.read_json(description_json, lines=True, encoding='utf-8')
+df.describe()
+df.head()
+# Deal with upper case 'I' letter problem in Turkish
+df['description'] = df['description'].str.replace('İ', 'i').str.lower()
+
+df.head()
+# Remove the numbers
+df['description'] = df['description'].str.replace(r'\d+', '', regex=True)
+
+# Remove punctuation
+df["description"] = df["description"].str.replace(r'[^\w\s]', ' ', regex=True)
+
+  # Remove extra whitespaces
+# df["description"] = df["description"].str.replace(r'\s+', ' ', regex=True).str.strip()
+ # Drop rows with empty descriptions
+df = df[df["description"] != '']
+df = df.dropna(subset=["description"])
+
+df.tail()
+df.head()
+ # df.to_json("descriptions_after_prepro.json", orient="records", force_ascii=False, indent=4)
