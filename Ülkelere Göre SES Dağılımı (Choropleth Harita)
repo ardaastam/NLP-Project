@@ -1,0 +1,37 @@
+import pycountry
+
+# Şehir → Ülke eşlemesi (genişletilebilir)
+city_to_country = {
+    "istanbul": "Turkey",
+    "ankara": "Turkey",
+    "izmir": "Turkey",
+    "berlin": "Germany",
+    "paris": "France",
+    "london": "United Kingdom",
+    "new york": "United States",
+    "mumbai": "India",
+    "karachi": "Pakistan",
+    "lahore": "Pakistan",
+    # ihtiyaca göre genişletilir
+}
+
+# Tüm ülke isimleri
+country_list = [country.name.lower() for country in pycountry.countries]
+
+# Akıllı ülke çıkarımı
+def smart_country_detect(location):
+    if pd.isnull(location):
+        return None
+    loc = str(location).lower()
+    
+    # Şehir varsa ona göre ülke ata
+    for city, country in city_to_country.items():
+        if city in loc:
+            return country
+    
+    # Ülke adı geçiyorsa onu döndür
+    for country in country_list:
+        if country in loc:
+            return country.title()
+    
+    return None
