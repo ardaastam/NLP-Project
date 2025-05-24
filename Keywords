@@ -1,0 +1,1488 @@
+# Engineering & Technology
+keywords_mach_eng = [
+    "makine mühendisi", "makine mühendisleri", "makine mühendisleri odası", "mmo", "mekanik tasarım", 
+    "termal analiz", "akışkanlar mekaniği", "solidworks", "cad", "üretim mühendisi", "robotik", 
+    "mechanical engineer", "mechanical engineers", "chamber of mechanical engineers", "mechanical design", 
+    "thermal analysis", "fluid mechanics", "manufacturing engineer", "robotics", "automotive engineer", 
+    "cad specialist", "robotics engineer"
+]
+
+keywords_elec_eng = [
+    "elektrik mühendisi", "elektrik mühendisleri", "elektrik mühendisleri odası", "emo", "eeod", 
+    "güç sistemleri", "elektrik tesisatı", "elektrik elektronik mühendisi", "elektrik elektronik mühendisliği", 
+    "elektrik elektronik mühendisleri", "elektrik elektronik mühendisleri odası", "devre tasarımı", "scada", 
+    "yenilenebilir enerji", "electrical engineer", "electrical engineers", "chamber of electrical engineers", 
+    "power systems", "electrical installation", "energy engineer", "renewable energy", "electrical grid engineer", 
+    "electrical grid", "electrical grid specialist", "high voltage specialist"
+]
+
+keywords_const_eng = [
+    "inşaat mühendisi", "inşaat mühendisleri", "inşaat mühendisleri odası", "imo", "yapı statiği", 
+    "çelik konstrüksiyon", "betonarme", "zemin mekaniği", "construction engineer", "construction engineers", 
+    "chamber of construction engineers", "structural engineering", "steel construction", "reinforced concrete", 
+    "soil mechanics", "geotechnical engineering", "foundation engineering", "foundation design", 
+    "foundation specialist", "construction management", "construction project manager", 
+    "construction project engineer", "construction project coordinator", "construction project consultant", 
+    "construction project supervisor"
+]
+
+keywords_software_eng = [
+    "yazılım mühendisi", "yazılım mühendisleri", "yazılım mühendisleri odası", "bilgisayar mühendisi", 
+    "bilgisayar mühendisleri", "bilgisayar mühendisleri odası", "bilgisayar yazılım mühendisi", 
+    "bilgisayar yazılım mühendisliği", "bilgisayar yazılım mühendisleri", "bilgisayar yazılım mühendisleri odası", 
+    "yazılım geliştirici", "software engineer", "software engineers", "software engineers chamber", 
+    "computer engineer", "computer engineers", "computer engineers chamber", "computer software engineer", 
+    "computer software engineering", "computer software engineers", "software developer", "backend", 
+    "frontend", "java", "c#", "devops", "full stack developer", "backend developer", "frontend developer", 
+    "java developer", "mobil uygulama", "mobil uygulama geliştirici", "mobil uygulama yazılımcısı", 
+    "mobil uygulama mühendisi", "mobil uygulama mühendisliği", "programmer", "full-stack developer", 
+    "mobile app developer", "mobile app programmer", "mobile app engineer", "mobile app engineering", 
+    "algorithm developer", "ai engineer", "ai developer", "ai programmer", "ai specialist"
+]
+
+keywords_datascience = [
+    "veri bilimci", "veri bilimi", "veri analisti", "veri analiz", "veri analizi", "veri madenciliği", 
+    "veri mühendisi", "veri mühendisliği", "machine learning", "deep learning", "yapay zeka", 
+    "yapay zeka mühendisi", "yapay zeka mühendisliği", "yapay zeka uzmanı", "yapay zeka analisti", "big data", 
+    "big data mühendisi", "big data mühendisliği", "big data uzmanı", "big data analisti", "data scientist", 
+    "data science", "data analyst", "artificial intelligence", "ai", "ai engineer", "ai engineering", 
+    "ai specialist", "ai analyst", "ai expert", "ai developer", "ai programmer", "ai consultant", "python", 
+    "numpy", "pandas", "scikit-learn", "tensorflow", "keras", "pytorch", "data mining", "data engineer", 
+    "data engineering", "data visualization", "data visualization engineer", "data visualization engineering", 
+    "data visualization expert", "data visualization specialist", "data visualization consultant", 
+    "data visualization analyst", "data visualization developer", "data visualization programmer", 
+    "r programming", "nlp", "machine learning specialist", "big data engineer", "big data engineering", 
+    "big data expert", "big data specialist", "big data consultant", "big data analyst", "big data developer", 
+    "big data programmer", "big data architecture", "predictive analytics specialist", "deep learning engineer", 
+    "deep learning engineering", "deep learning expert", "deep learning specialist", "deep learning consultant"
+]
+
+keywords_indstrial_eng = [
+    "endüstri mühendisi", "endüstri mühendisleri", "endüstri mühendisleri odası", "endüstri mühendisliği", 
+    "endüstri mühendisliği odası", "verimlilik mühendisi", "üretim mühendisi", "endüstriyel mühendis", 
+    "endüstriyel mühendislik", "endüstriyel mühendisliği", "optimizasyon", "optimizasyon mühendisliği", 
+    "optimizasyon mühendisi", "industrial engineer", "industrial engineers", "industrial engineers chamber", 
+    "industrial engineering", "industrial engineering chamber", "productivity engineer", "production engineer"
+]
+
+keywords_jeo_eng = [
+    "jeoloji mühendisi", "jeoloji mühendisleri", "jeoloji mühendisleri odası", "jeoloji mühendisliği", 
+    "jeoloji mühendisliği odası", "maden mühendisi", "maden mühendisleri", "maden mühendisleri odası", 
+    "maden mühendisliği", "maden mühendisliği odası", "jeofizik mühendisi", "jeofizik mühendisleri", 
+    "jeofizik mühendisleri odası", "jeofizik mühendisliği", "jeofizik mühendisliği odası", "jeokimya mühendisi", 
+    "jeokimya mühendisleri", "jeokimya mühendisleri odası", "jeokimya mühendisliği", "jeokimya mühendisliği odası", 
+    "jeomorfoloji mühendisi", "jeomorfoloji mühendisleri", "jeomorfoloji mühendisleri odası", 
+    "jeomorfoloji mühendisliği", "jeomorfoloji mühendisliği odası", "jeotermal mühendisi", "jeotermal mühendisleri", 
+    "jeotermal mühendisleri odası", "jeotermal mühendisliği", "jeotermal mühendisliği odası", "petrol mühendisliği", 
+    "petrol mühendisi", "petrol mühendisleri", "petrol mühendisleri odası", "petrol mühendisliği odası", 
+    "geological engineer", "geological engineers", "geological engineers chamber", "geological engineering", 
+    "geological engineering chamber", "mining engineer", "mining engineers", "mining engineers chamber", 
+    "mining engineering", "mining engineering chamber", "geophysics engineer", "geophysics engineers", 
+    "geophysics engineers chamber", "geophysics engineering", "geophysics engineering chamber", 
+    "geochemistry engineer", "geochemistry engineers", "geochemistry engineers chamber", "geochemistry engineering"
+]
+
+keywords_crypto_eng = [
+    "kriptografi uzmanı","kriptografi mühendisi","cryptography expert","cryptography engineer",
+    "güvenlik algoritması uzmanı",
+    "security algorithm specialist",
+    "şifreleme uzmanı",
+    "encryption specialist",
+    "kriptografi araştırmacısı",
+    "cryptography researcher",
+    "kriptografi",
+    "cryptography",
+    "şifreleme",
+    "encryption",
+    "kriptoloji",
+    "cryptology",
+    "hash fonksiyonları",
+    "hash functions",
+    "kriptografik algoritmalar",
+    "cryptographic algorithms",
+    "dijital imza",
+    "digital signature",
+    "güvenlik protokolleri",
+    "security protocols",
+    "kriptografik anahtar",
+    "cryptographic key"
+]
+
+keywords_cybersecurity = [
+    "siber güvenlik uzmanı",
+    "siber güvenlik mühendisi",
+    "cybersecurity expert",
+    "cybersecurity engineer",
+    "bilgi güvenliği uzmanı",
+    "information security specialist",
+    "ağ güvenliği uzmanı",
+    "network security specialist",
+    "penetrasyon testi uzmanı",
+    "penetrasyon testi"
+    "penetration tester",
+    "etik hacker",
+    "ethical hacker",
+    "siber güvenlik analisti",
+    "cybersecurity analyst",
+    "siber güvenlik danışmanı",
+    "cybersecurity consultant",
+    "güvenlik analisti",
+    "security analyst",
+    "tehdit analisti",
+    "threat analyst",
+    "siber tehdit uzmanı",
+    "siber tehdit",
+    "cyber threat specialist",
+    "güvenlik açığı yönetimi",
+    "vulnerability management",
+    "soc uzmanı",
+    "soc specialist (security operations center)",
+    "security operations center",
+    "soc specialist",
+    "güvenlik duvarı uzmanı",
+    "firewall specialist",
+    "ağ güvenlik protokolleri",
+    "network security protocols",
+    "güvenlik ihlali tespiti",
+    "security breach detection",
+    "kimlik doğrulama sistemleri",
+    "authentication systems"
+    "noc specialist",
+    "noc uzmanı"
+]
+
+keywords_game_dev = [
+    "oyun geliştirici",
+    "game developer",
+    "oyun tasarımcısı",
+    "app developer",
+    "game designer",
+    "oyun programcısı",
+    "game programmer",
+    "oyun motoru uzmanı",
+    "game engine specialist",
+    "unity geliştirici",
+    "unity developer",
+    "unreal engine geliştirici",
+    "unreal engine developer",
+    "mobil oyun geliştirici",
+    "mobile game developer",
+    "oyun tasarımı",
+    "game design",
+    "level tasarımcısı",
+    "level designer",
+    "mobil oyun",
+    "mobile game",
+    "mobil oyun geliştirme",
+    "mobile game development",
+    "indie oyun",
+    "indie game",
+    "oyun testi uzmanı",
+    "game tester",
+    "oyun animatörü",
+    "game animator",
+    "oyun senaristi",
+    "game scriptwriter",
+    "ar/vr oyun geliştirici",
+    "ar/vr game developer",
+    "multiplayer oyun geliştirme",
+    "multiplayer game development",
+    "çok oyunculu oyun geliştirme",
+    "oyun mekanikleri tasarımı",
+    "game mechanics design",
+    "pixel art uzmanı",
+    "pixel artist",
+    "oyun geliştirme süreçleri",
+    "game development pipelines",
+    "oyuncu deneyimi tasarımı",
+    "player experience design"
+    "flutter", "React Native", "swift","Kktlin",
+    "app store optimization specialist",
+    "app optimization expert"
+]
+
+keywords_web_developer = [
+    "web geliştirici",
+    "web developer",
+    "web programcısı",
+    "web programmer",
+    "frontend geliştirici",
+    "frontend developer",
+    "backend geliştirici",
+    "backend developer",
+    "full-stack geliştirici",
+    "full-stack developer",
+    "web tasarımcısı",
+    "web designer",
+    "ui/ux tasarımcısı",
+    "ui/ux designer",
+    "ui/ux","ui-ux",
+    "react geliştirici",
+    "react developer",
+    "angular geliştirici",
+    "angular developer",
+    "vue.js geliştirici",
+    "vue.js specialist",
+    "node.js geliştirici",
+    "node.js developer",
+    "django geliştirici",
+    "django developer",
+    "web geliştirme",
+    "web development",
+    "responsive tasarım",
+    "responsive design",
+    "html/css/js uzmanı",
+    "html/css/js expert",
+    "e-ticaret web geliştirici",
+    "e-commerce web developer",
+    "cms geliştirici",
+    "cms developer",
+    "wordpress geliştirici",
+    "wordpress developer",
+    "php geliştirici",
+    "php developer",
+    "web güvenlik uzmanı",
+    "web security specialist",
+    "seo uzmanı",
+    "seo specialist",
+    "performans optimizasyonu",
+    "performance optimization",
+    "api geliştirme",
+    "api developer",
+    "cross-browser uyumluluk",
+    "cross-browser compatibility",
+    "google analytics 4",
+    "ga4",
+    "google analytics universal",
+    "web analisti",
+    "web analyst",
+    "web analizleri",
+    "web analytics",
+    "pazarlama analitiği",
+    "marketing analytics",
+    "veri analitiği",
+    "data analytics"
+]
+
+keywords_macha_eng = [
+    "mekatronik mühendisi","mekatronik mühendisliği","mekatronik mühendisliği odası","sensör teknolojileri","PLC","mechatronics engineer","robotics engineer","control engineer",
+    "kontrol mühendisi","kontrol mühendisliği"
+]
+
+keywords_env_eng = [
+    "çevre mühendisi","çevre mühendisliği","ekoloji","çevre etki analizi","iklim değişikliği","environmental engineer","environmental analyst",
+    " ecosystem analyst","çevre mühendisleri odası","enviromental engineering chamber","çevre mühendisleri odası","çevre şehircilik ve iklim değişikliği bakanlığI","orman mühendisi",
+    "orman mühendisleri"
+]
+
+keywords_space_eng = [
+    "uzay mühendisi",
+    "space engineer",
+    "havacılık mühendisi",
+    "aerospace engineer",
+    "uydu sistemleri",
+    "satellite systems",
+    "roket teknolojisi",
+    "rocket technology",
+    "roket mühendisi",
+    "rocket engineer",
+    "nasa çalışanı",
+    "nasa employee",
+    "former nasa engineer",
+    "former nasa employee",
+    "aerodinamik uzmanı",
+    "aerodynamics specialist",
+    "aerodinamik mühendisi",
+    "aerodynamics engineer",
+    "uydu haberleşme mühendisi",
+    "satellite communication engineer",
+    "haberleşme mühendisi",
+    "communication engineer",
+    "füze sistemleri",
+    "missile systems",
+    "füze sistemleri geliştirici",
+    "missile systems developer",
+    "uzay araçları tasarımı",
+    "spacecraft design",
+    "uzay sistemleri analisti",
+    "space systems analyst",
+    "uzay teknolojisi uzmanı",
+    "space technology specialist",
+    "orbital mekanik uzmanı",
+    "orbital mechanics specialist",
+    "uzay görevleri planlayıcısı",
+    "space mission planner",
+    "uzay taşıtı geliştirme",
+    "space vehicle development",
+    "roket bilimci",
+    "rocket scientist",
+    "astronomi mühendisliği",
+    "astronomy engineering",
+    "yörünge analizleri",
+    "orbit analysis",
+    "uzay navigasyonu",
+    "space navigation",
+    "uzay araştırmaları",
+    "space exploration",
+    "uzay yapıları tasarımı",
+    "space structures design",
+    "güç sistemleri mühendisi",
+    "power systems engineer (for spacecraft)",
+    "power systems engineer",
+    "itki sistemleri mühendisi",
+    "propulsion systems engineer",
+    "uzay veri analitiği",
+    "space data analytics"
+]
+
+keywords_telecommunication = [
+    "telekomünikasyon", "telecommunication", "telecom", "telekomünikasyon mühendisi",
+    "5G", "4G", "3G", "2G", "LTE", "UMTS", "HSPA", "HSDPA", "HSUPA",
+    "GPRS", "CDMA", "WCDMA", "TDMA", "FDMA", "OFDMA", "SCDMA", "TD-SCDMA",
+    "CDMA2000", "EV-DO", "WiMAX", "Wi-Fi", "Bluetooth", "NFC", "RFID", "ZigBee",
+    "Z-Wave", "LoRa", "Sigfox", "NB-IoT", "LTE-M", "M2M", "MTC", "IoT",
+    "telecommunication engineer", "5G engineer", "4G engineer", "3G engineer",
+    "2G engineer", "LTE engineer", "GSM engineer", "UMTS engineer", "HSPA engineer",
+    "HSDPA engineer", "HSUPA engineer", "GPRS engineer", "EDGE engineer",
+    "CDMA engineer", "WCDMA engineer", "TDMA engineer", "FDMA engineer",
+    "OFDMA engineer", "SCDMA engineer", "TD-SCDMA engineer", "CDMA2000","CDMA2000 engineer",
+    "EV-DO engineer", "WiMAX engineer", "Wi-Fi engineer", "Bluetooth engineer",
+    "NFC engineer", "RFID engineer", "ZigBee engineer", "Z-Wave engineer",
+    "LoRa engineer", "Sigfox engineer", "NB-IoT engineer", "LTE-M engineer",
+    "M2M engineer", "MTC engineer", "IoT engineer","cloud ran","open ran","telecom test",
+    "telecom test engineer","telecom test engineering","network performance tools"
+]
+# Health & Medical
+Keywords_uzman_doktor = ["uzman doktor", "uzman hekim", "uzman hekimler", "uzman doktorlar", "uzman doktorluk",
+                         "uzman hekimlik", "uzman hekimliği", "uzman doktorluğu", "uzman hekimliği odası",
+                         "uzman doktorluğu odası", "uzman hekimler odası", "uzman doktorlar odası", "specialist doctor",
+                         "specialist physician", "specialist physicians", "specialist doctors", "specialist doctoring",
+                         "specialist physicianing", "specialist physicianing chamber", "specialist doctoring chamber",
+                         "specialist physician chamber", "specialist doctor chamber", "specialist physicianing chamber",
+                         "Doktor","hekim","hekimler","doktorlar","tıp doktoru","tıp hekimi","tıp hekimleri","tıp doktorları",
+                         "Doctor","Physician","Physicians","Doctors","Medical doctor","Medical doctors","Medical physicians",
+                         "Medical doctors","Medical doctors chamber","Medical physicians chamber","Medical doctoring"
+]
+
+Keywords_family_doctor = ["aile hekimi", "aile hekimliği", "aile hekimleri", "aile hekimleri odası", "family physician",
+                         "family physicians", "family physicianing", "family physicianing chamber", "family doctor",
+                         "family doctors", "family doctoring", "family doctoring chamber", "aile hekimliği odası",
+                         "aile hekimleri odası", "aile hekimleri odası", "aile hekimliği odası","pratisyen","pratisyen hekim",
+                         "pratisyen hekimler","pratisyen doktor","pratisyen doktorlar","pratisyen hekimliği",
+                         "pratisyen hekimliği odası","pratisyen hekimler odası","pratisyen doktorluğu",
+                         "pratisyen doktorluğu odası","pratisyen hekimler odası","pratisyen doktorlar odası"]
+
+Keywords_nurse = ["hemşire", "hemşireler", "hemşirelik", "hemşirelik odası", "nurse", "nurses", "nursing", "nursing chamber",
+                    "nursing profession", "nursing profession chamber", "nursing profession association",
+                    "stajyer hemşire"]
+
+Keywords_başhemşire = ["başhemşire", "başhemşireler", "başhemşirelik", "başhemşirelik odası", "head nurse", "head nurses",
+                    "head nursing", "head nursing chamber", "head nursing profession", "head nursing profession chamber",
+                    "head nursing profession association", "stajyer başhemşire"]
+Keywords_diyetisyen = ["diyetisyen", "diyetisyenler", "diyetisyenlik", "diyetisyenlik odası", "dietitian", "dietitians",
+                    "dietitian profession", "dietitian profession chamber", "dietitian profession association",
+                    "stajyer diyetisyen","beslenme uzmanı","diyet planı","beslenme uzmanı","nutritionist",
+                    "prespective dietitian","dietitian intern","dietitian internship","beslenme ve diyetik",
+                    "nutrition and dietetics","nutrition and dietitian","diyetisyenler odası",
+                    "beslenme ve diyetetik odası","beslenme ve diyetetik uzmanı","nutrition and dietetics expert"
+                    ]
+
+Keywords_dentist = ["diş hekimi", "diş hekimleri", "diş hekimliği", "diş hekimliği odası", "dentist", "dentists",
+                    "dentistry", "dentistry chamber", "dentistry profession", "dentistry profession chamber",
+                    "dentistry profession association", "stajyer diş hekimi","diş hekimliği uzmanı",
+                    "dental surgeon","dental surgery","dental surgeon","dental surgery expert",
+                    "dental surgery expert","dental surgery specialist","dental surgery specialist",
+                    "dental surgery specialist","dental surgery specialist","dental surgery specialist",
+                    "diş doktoru","dişçi","dişçiler","diş hekimleri odası","diş hekimliği odası","implant",
+                    "ortodonti","periodontoloji","endodonti","diş hekimliği uzmanı",
+                    "Kanal tedavisi","Diş implantı","Diş estetiği","Diş beyazlatma","Diş temizliği",
+                    "Diş dolgusu","Diş çekimi","Diş teli","Diş protezi","Diş hastalıkları",
+                    "protez diş","orthodontics","periodontology","endodontics","dental implant","dental aesthetics",
+                    "dental whitening","dental cleaning","dental filling","dental extraction",
+                    "oral health","oral health specialist","oral health expert","oral health specialist"
+                    "Ağız ve diş sağlığı","Ağız ve diş sağlığı uzmanı","Ağız ve diş sağlığı uzmanı",
+                    "prosthodontist","prosthodontics","dental prosthetics","protez diş hekimliği"
+                    ]
+Keywords_Pharmacist = ["eczacı", "eczacılar", "eczacılık", "eczacılık odası", "pharmacist", "pharmacists",
+                       "eczacı odası", "pharmacy chamber", "pharmacy profession", "pharmacy profession chamber",
+                       "eczacılar odası", "pharmacy profession association", "stajyer eczacı","eczacılık uzmanı",
+                       "farmakoloji","farmakolog","farmakoloji uzmanı","farmakoloji uzmanı",
+                        "pharmacology","pharmacologist","pharmacology expert","pharmacology specialist",
+                        "drug information specialist","hospital pharmacist","pharmacy owner",
+                        "community pharmacist","clinical pharmacist","industrial pharmacist",
+                        "clinical pharmacy","industrial pharmacy","hospital pharmacy",
+                        "medicine management","drug management","drug therapy"
+                       ]
+
+Keywords_başhekim = ["başhekim", "başhekimler", "başhekimlik", "başhekimlik odası", "chief physician", "chief physicians",
+                     "chief physicianing", "chief physicianing chamber", "chief physician profession",
+                    "chief physician profession chamber", "chief physician profession association",
+                    "stajyer başhekim","başhekimlik uzmanı","başhekimlik uzmanı",
+                    "head physician","head physicians","head physicianing","head physicianing chamber",
+                    "head physician profession","head physician profession chamber","head physician profession association",
+                    "stajyer başhekim","Hastane yöneticisi","hastane yöneticiliği","klinik yöneticisi",
+                    "klinik sorumlusu","hastane sorumlusu","hospital administrator",
+                    "hospital administration","hospital administrator","hospital management"
+                    ]
+
+Keywords_surgeon = ["cerrah", "cerrahlar", "cerrahlık", "cerrahlık odası", "surgeon", "surgeons",
+                    "surgery", "surgery chamber", "surgery profession", "surgery profession chamber",
+                    "surgery profession association", "stajyer cerrah","cerrahlık uzmanı",
+                    "cerrah uzmanı","cerrah uzmanı","general surgeon","general surgery","Kalp cerrahı",
+                    "kalp cerrahı","beyin cerrahı","genel cerrah",
+                    "gastroenteroloji cerrahı","hospital surgeon",
+                    "hospital surgery","neurosurgeon","cardiac surgeon","pediatric surgeon",
+                    "general surgery","general surgeon","damar tıkanıklığı","damar cerrahı",
+                    "vascular surgeon","vascular surgery","vascular surgeon","vascular surgery specialist"
+                    ]
+
+Keywords_plastic_surgeon = ["plastik cerrah", "plastik cerrahlar", "plastik cerrahlık", "plastik cerrahlık odası",
+                            "plastic surgeon", "plastic surgeons","estetik cerrah", "aesthetic surgeon","estetik ameliyat",
+                            "burun estetiği","göz estetiği","yüz estetiği","vücut estetiği","yüz gerdirme",
+                            "liposuction","abdominoplasty","breast augmentation","breast lift",
+                            "breast reduction","facelift","rhinoplasty","eyelid surgery","yüz germe","gögüs büyütme",
+                            "göz kapağı estetiği","karın germe","liposuction","liposuction surgery",
+                            "gögüs estetiği","plastik cerrahi","rekonstrüktif cerrahi",
+                            "reconstructive surgery","aesthetic surgery","facial plastic surgery",
+                            "cosmetic surgery","body contouring","facial rejuvenation",
+                            "rhinoplasty surgeon","breast reconstruction surgeon",
+                            "breast aesthetics surgeon","liposuction surgeon","abdominoplasty surgeon",
+                            "breast augmentation surgeon","breast lift surgeon"
+                            ]
+
+Keywords_ortopedi = ["ortopedi", "ortopedi uzmanı", "ortopedi cerrahı", "ortopedi ve travmatoloji"
+                     "ortopedi ve travmatoloji uzmanı", "ortopedi ve travmatoloji cerrahı",
+                     "ortopedi ve travmatoloji uzmanı","ortopedi ve travmatoloji uzmanı",
+                     "orthopedic surgeon", "orthopedic surgery", "orthopedic specialist",
+                     "skolyoz","skolyoz tedavisi","skolyoz cerrahisi","skolyoz uzmanı",
+                     "bel fıtığı tedavisi","bel fıtığı cerrahisi","bel fıtığı uzmanı",
+                     "omurga cerrahisi","omurga cerrahı","omurga uzmanı","orthopedist",
+                     "orthopedic and traumatology","orthopedic and traumatology specialist",
+                        "orthopedic and traumatology surgeon","fracture and dislocation specialist"
+                    ]                            
+
+Keywords_Jinekolog = ["jinekolog", "jinekologlar", "jinekoloji", "jinekoloji uzmanı", "jinekoloji cerrahı",
+                      "Kadın Doğum Doktoru","Kadın Doğum Uzmanı", "Kadın Doğum Cerrahı", "Kadın Hastalıkları ve Doğum",
+                      "Kadın Sağlığı","rahim hastalıkları","gynecologist", "gynecologists",
+                        "gynecology", "gynecology specialist", "gynecology surgeon",
+                        "gynecology and obstetrics","gynecology and obstetrics specialist","obstetrics",
+                        "obstetrician","birth doctor","women's health doctor","menopause specialist","menopoz uzmanı"
+                        ]
+
+Keywords_Pediatrist = ["pediatrist", "pediatristler", "pediatri", "pediatri uzmanı", "pediatri cerrahı",
+                        "pediatrician", "pediatricians", "pediatrics", "pediatrics specialist",
+                        "pediatrics surgeon","pediatric surgery","pediatrician specialist",
+                        "pediatric surgery specialist","children's health doctor","children's health specialist",
+                        "child health and diseases","child health and diseases specialist",
+                        "child health and diseases surgeon","child health and diseases expert",
+                        "pediatrician expert","pediatrician surgeon","çocuk doktoru","uzman çocuk doktoru",
+                        "çocuk hastalıkları uzmanı","çocuk sağlığı ve hastalıkları uzmanı","pediatri uzmanı",
+                        "pediatri uzmanı","pediatri cerrahı","pediatri cerrahı","pediatric surgeon",
+                        "child doctor","child health specialist","child health expert","pediatrician expert",
+                        "pediatric disease specialist","pediatric disease"
+                    ]
+
+Keywords_veterinary = ["veteriner", "veteriner hekim", "veteriner hekimler", "veteriner hekimliği",
+                       "veteriner hekimliği odası", "veteriner hekimler odası", "veteriner hekimleri odası",
+                       "veteriner hekimleri", "veterinary", "veterinary medicine", "veterinary surgeon",
+                       "veterinary surgeon","animal doctor","animal health","animal health and diseases",
+                       "animal health and diseases specialist","animal health and diseases expert",
+                       "animal health and diseases surgeon","animal health and diseases expert",
+                       "animal health and diseases specialist","animal health and diseases specialist",
+                       "animal health and diseases expert","animal health and diseases expert",
+                       "hayvan sağlığı","hayvan sağlığı uzmanı","pet kliniği sahibi","pet kliniği",
+                       "evcil hayvan hastalıkları","evcil hayvan sağlığı","evcil hayvan sağlığı uzmanı",
+                       "animal health specialist","animal health expert","pet health"
+                    ]
+
+Keywords_onkolog = ["onkolog", "onkologlar", "onkoloji", "onkoloji uzmanı", "onkoloji cerrahı",
+                    "onkoloji uzmanı","onkoloji cerrahı","onkolojik cerrah","onkolojik cerrah",
+                    "oncologist", "oncologists", "oncology", "oncology specialist",
+                    "oncology surgeon","medical oncologist","medical oncology","surgical oncologist",
+                    "surgical oncology","radiation oncologist","radiation oncology",
+                    "chemotherapy specialist","chemotherapy expert","chemotherapy doctor",
+                    "chemotherapy treatment","kemoterapi uzmanı","kemoterapi uzmanı",
+                    "Kanser tedavisi","kanser uzmanı","kanser cerrahı","kanser hastalıkları",
+                    "kanser hastalıkları uzmanı","kanser hastalıkları cerrahı",
+                    "cancer treatment","cancer specialist","cancer surgeon",
+                    "cancer diseases","cancer diseases specialist","cancer diseases surgeon",
+                    ]
+Keywords_Spor_hekim = ["spor hekimi", "spor hekimleri", "spor hekimliği", "spor hekimliği odası", "sports physician",
+                       "spor doktoru", "sports doctor", "sports medicine", "sports medicine specialist",
+]
+
+Keywords_Fizyoterapist = ["fizyoterapist", "fizyoterapistler", "fizyoterapi", "fizyoterapi uzmanı", "fizyoterapi cerrahı",
+                          "fizik tedavi uzmanı","fizik tedavi ve rehabilitasyon","fizik tedavi ve rehabilitasyon uzmanı",
+                          "fizik tedavi ve rehabilitasyon cerrahı","fizik tedavi ve rehabilitasyon doktoru",
+                          "physiotherapist", "physiotherapists", "physiotherapy", "physiotherapy specialist",
+                          "physiotherapy surgeon","physical therapy",
+                          "physical therapist","physical therapy specialist",
+                          "physical therapy surgeon","physical therapy doctor"]
+
+
+# Education & Academic
+keywords_schoolar = [
+    "scholar","academic","researcher","scientist",
+    "associate professor","assistant professor","lecturer","instructor",
+    "academic advisor","academic coordinator","academic director",
+    "academic dean","academic officer","academic manager",
+    "academic supervisor","academic consultant","academic mentor",
+    "academic researcher","academic writer","academic editor",
+    "academic publisher","academic journal editor","academic conference organizer",
+    "academic event organizer","academic program coordinator",
+    "academic program director","academic program manager",
+    "academic program supervisor","academic program consultant",
+    "academic program mentor","academic program researcher","asistan hoca"
+    ,"üniversite hocası","üniversite araştırmacısı",
+    "üniversite akademisyeni","üniversite eğitmeni","üniversite eğitici",
+    "akademisyen","akademik araştırmacı","akademik yazar","akademik editör",
+    "yüksek öğretim elemanı","doçent","doktor öğretim üyesi","university lecturer","university researcher",
+    "university academic","university educator","university instructor",
+    "university academic advisor","university academic coordinator",
+    "university academic director","university academic dean","Dekan","üniversite bölüm başkanı",
+    "üniversite bölüm başkan yardımcısı"
+]
+
+keywords_professor = [ "üniversite rektörü","üniversite müdürü","üniversite yöneticisi",
+    "Rektör","üniversite rektör yardımcısı","rektör","professor",
+    "professor doctor","professor dooctor","prof","prof.","prof dr","prof. dr.","university professor",
+    "rector","university rector","university president","university chancellor",
+    "university provost","university vice president","university vice chancellor"]
+
+keywords_research_assistant = [
+    "research assistant","research fellow","research associate",
+    "teaching assistant","teaching fellow","teaching associate",
+    "araştırma görevlisi","asistan hoca","öğretim üyesi",
+    "üniversite öğretim görevlisi","üniversite hocası","üniversite araştırmacısı",
+    "Teaching Assistant","Research Assistant","Research Fellow",
+    "Research Associate","Teaching Fellow","Teaching Associate","Teaching Assistant",
+    "PHD student","PhD candidate","PhD researcher","PhD fellow",
+    "Araştırma görevlisi","Araştırma asistanı","Doktora öğrencisi",
+    "Doktora adayı","Doktora araştırmacısı","Doktora bursiyeri",
+    "Öğretim Görevlisi","Öğretim Asistanı","Öğretim Üyesi","Öğretim Elemanı",
+    "Araştırma Asistanı","Araştırma Görevlisi","Araştırma Elemanı","üniversite öğretim görevlisi",
+]
+
+keywords_psyhology = [
+    "psychologist","clinical psychologist","counseling psychologist",
+    "school psychologist","educational psychologist","developmental psychologist",
+    "social psychologist","forensic psychologist","health psychologist",
+    "neuropsychologist","industrial-organizational psychologist",
+    "sports psychologist","research psychologist","experimental psychologist",
+    "applied psychologist","consulting psychologist","clinical neuropsychologist",
+    "clinical health psychologist","clinical child psychologist",
+    "clinical adolescent psychologist","clinical geropsychologist",
+    "clinical rehabilitation psychologist","clinical forensic psychologist",
+    "clinical community psychologist","clinical family therapist",
+    "clinical marriage and family therapist","clinical mental health counselor",
+    "clinical substance abuse counselor","clinical addiction counselor",
+    "clinical school counselor","clinical career counselor","PDR uzmanı","PDR",
+    "rehabilitasyon uzmanı","rehabilitasyon danışmanı","rehabilitasyon terapisti",
+    "psikolog","psikiyatrist","psikoterapist","psikoanalist",
+    "psikoanalitik terapist","psikoanalitik psikoterapist","psikoanalitik danışman",
+    "psikoanalitik terapist","psikoanalitik eğitmen","psikoanalitik eğitici",
+    "psikoanalitik araştırmacı","psikoanalitik yazar","psikoanalitik editör",
+    "Psikolojik danışman","rehber öğretmen","rehberlik uzmanı",
+    "psikolojik danışmanlık ve rehberlik","rehber öğretmen",
+    "rehberlik ve psikolojik danışmanlık","rehberlik hizmetleri",
+    "rehberlik ve danışmanlık","rehberlik ve psikolojik destek",
+    "rehberlik ve psikolojik danışmanlık hizmetleri","rehberlik ve psikolojik destek hizmetleri",
+    "rehberlik ve psikolojik destek uzmanı","rehberlik ve psikolojik danışmanlık uzmanı",
+    "Uzman Psikolog","Uzman Psikiyatrist","Uzman Psikoanalist",
+    "Uzman Psikoterapist","Uzman Psikoanalitik Terapist",
+    "Klinik Psikolog","Klinik Psikoanalist","Klinik Psikoanalitik Terapist",
+    "psychology specialist","Rehberlik ve Psikolojik Danışmanlık Uzmanı",
+    "Rehberlik ve psikolojik danışman","Rehberlik ve psikolojik danışmanlık",
+    "Rehber öğretmen"
+]
+
+keywords_konuşma_terapisti = ["dil ve konuşma terapisti","konuşma terapisti","Dil terpaisti",
+"Konuşma bozukluğu terapisti","Konuşma bozukluğu uzmanı","konuşma bozukluğu",
+"ses terapisti","ses bozukluğı","ses bozukluğu terapisti","ses terapisi",
+"ses terapisi uzmanı","kekemelik uzmanı","kekemelik terapisti","kekemelik terapisi",
+"artikülasyon terapisti","artikülasyon terapisi","artikülasyon bozukluğu",
+"artikülasyon bozukluğu terapisti","artikulasyon terapisti","artikülasyon uzmanı",
+"afazi terapisti","afazi terapisi","afazi uzmanı","afazi bozukluğu",
+"afazi bozukluğu terapisti","afazi terapisi uzmanı","konuşma geliştirme uzmanı",
+"iletişim terapisti","iletişim terapisi","iletişim bozukluğu","iletişim bozukluğu terapisti",
+"iletişim terapisi uzmanı","konuşma terapisi","konuşma terapisi uzmanı",
+"işitme terapisti","işitme terapisi","işitme bozukluğu","işitme bozukluğu terapisti",
+"işitme terapisi uzmanı","işitme kaybı terapisti","işitme kaybı terapisi",
+"speech therapist","speech-language pathologist","speech-language therapist",
+"speech-language pathology","speech-language therapy","speech-language specialist",
+"speech-language pathologist","speech-language pathology specialist",
+"speech and language therapist","speech and language pathologist","speech and language pathology",
+"speech and language therapy","speech and language specialist",
+"speech disorder specialist","speech disorder therapist","speech disorder pathologist",
+"speech disorder therapy","speech disorder pathology","speech disorder rehabilitation",
+"speech disorder treatment","speech disorder assessment","speech disorder evaluation",
+"voice therapist","voice therapy","voice specialist","voice pathologist",
+"voice rehabilitation","voice treatment","voice assessment",
+"voice evaluation","voice disorder","voice disorder specialist",
+"stuttering expert","stuttering therapist","stuttering therapy","stuttering disorder",
+"stuttering disorder specialist","stuttering disorder therapist",
+"stuttering disorder pathologist","stuttering disorder therapy",
+"articulation therapist","articulation therapy","articulation specialist",
+"articulation disorder","articulation disorder specialist",
+"articulation disorder therapist","articulation disorder pathologist",
+"articulation disorder therapy","articulation disorder rehabilitation",
+"aphasia therapist","aphasia therapy","aphasia specialist","aphasia disorder",
+"aphasia disorder specialist","aphasia disorder therapist",
+"aphasia disorder pathologist","aphasia disorder therapy",
+"aphasia disorder rehabilitation","communication therapist",
+"communication therapy","communication specialist",
+"communication disorder","communication disorder specialist",
+"communication disorder therapist","communication disorder pathologist",
+"communication disorder therapy","communication disorder rehabilitation",
+"communication disorder treatment","communication disorder assessment",
+"communication disorder evaluation","işitme uzmanı","işitme terapisti",
+"speech development expert","speech development therapist","speech development therapy",
+"speech development specialist","speech development disorder",
+"speech development disorder specialist","speech development disorder therapist",
+"speech development disorder pathologist","speech development disorder therapy",
+"hearing therapist","hearing therapy","hearing specialist","hearing disorder",
+"hearing disorder specialist","hearing disorder therapist",
+"hearing disorder pathologist","hearing disorder therapy",
+"hearing disorder rehabilitation","hearing disorder treatment",
+"hearing disorder assessment","hearing disorder evaluation",
+"hearing loss therapist","hearing loss therapy","hearing loss specialist",
+"hearing loss disorder","hearing loss disorder specialist",
+"hearing loss disorder therapist","hearing loss disorder pathologist",
+"hearing loss disorder therapy","hearing loss disorder rehabilitation",
+"hearing loss disorder treatment","hearing loss disorder assessment",
+]
+
+keywords_special_education = ["özel eğitim öğretmeni","özel eğitim uzmanı","özel eğitim terapisti",
+"özel eğitim danışmanı","özel eğitim terapisi","özel eğitim uzmanlığı",
+"özel eğitim alanında uzman","özel eğitim alanında danışmanlık",
+"özel eğitim alanında terapist","özel eğitim alanında öğretmen","özel gereksinimli çocuk eğitmeni",
+"özel gereksinimli çocuk terapisti","özel gereksinimli çocuk uzmanı",
+"engelli eğitimi uzmanı","engelli çocuk eğitimi uzmanı","engelli çocuk terapisti",
+"engelli çocuk danışmanı","engelli çocuk eğitimi terapisti",
+"engelli çocuk eğitimi danışmanı","engelli çocuk eğitimi öğretmeni",
+"öğrenme güçlüğü danışmanı","öğrenme güçlüğü terapisti","öğrenme güçlüğü uzmanı",
+"öğrenme güçlüğü eğitmeni","öğrenme güçlüğü terapisi",
+"öğrenme güçlüğü eğitimi","öğrenme güçlüğü eğitimi uzmanı",
+"öğrenme güçlüğü eğitimi terapisti","öğrenme güçlüğü eğitimi danışmanı",
+"öğrenme güçlüğü eğitimi öğretmeni","öğrenme güçlüğü eğitimi terapisti",
+"öğrenme güçlüğü eğitimi uzmanı","öğrenme güçlüğü eğitimi danışmanı",
+"bireysel eğitim planı uzmanı","bireysel eğitim planı terapisti","bireysel eğitim planı danışmanı",
+"bireysel eğitim planı öğretmeni","bireysel eğitim planı terapisi",
+"bireysel eğitim planı eğitimi","bireysel eğitim planı eğitimi uzmanı",
+"bireysel eğitim planı eğitimi terapisti","bireysel eğitim planı eğitimi danışmanı",
+"otizm eğitmeni","otizm terapisti","otizm uzmanı","otizm danışmanı",
+"otizm terapisi","otizm eğitimi","otizm eğitimi uzmanı",
+"otizm eğitimi terapisti","otizm eğitimi danışmanı",
+"otizm eğitimi öğretmeni","otizm eğitimi terapisti",
+"otizm eğitimi uzmanı","otizm eğitimi danışmanı",
+"dikkat eksikliği uzmanı","dikkat eksikliği terapisti","dikkat eksikliği danışmanı",
+"dikkat eksikliği eğitmeni","dikkat eksikliği terapisi",
+"dikkat eksikliği eğitimi","dikkat eksikliği",
+"kaynaştırma eğitimi uzmanı","kaynaştırma eğitimi terapisti",
+"kaynaştırma eğitimi danışmanı","kaynaştırma eğitimi öğretmeni",
+"kaynaştırma eğitimi terapisi","kaynaştırma eğitimi eğitimi",
+"kaynaştırma eğitimi eğitimi uzmanı","kaynaştırma eğitimi eğitimi terapisti",
+"özel eğitim koordinatörü","özel eğitim yöneticisi","özel eğirim",
+"special education specialist","special education therapist",
+"special education consultant","special education teacher",
+"special education therapy","special education training",
+"special education training specialist","special education training therapist",
+"special education training consultant","special education training teacher",
+"special needs child educator","special needs child therapist",
+"disability education expert","disability child education expert","disability child therapist",
+"disability child consultant","disability child education therapist",
+"disability child education consultant","disability child education teacher",
+"learning disability consultant","learning disability therapist",
+"learning disability expert","learning disability educator",
+"learning disability therapy","learning disability education",
+"learning disability education expert","learning disability education therapist",
+"learning disability education consultant","learning disability education teacher",
+"learning disability education therapy","learning disability education expert",
+"individualized education plan (IEP) expert","(IEP) expert","(IEP) therapist",
+"autism instructor", "autism","autism expert","autism consultant",
+"autism therapy","autism education","autism education expert",
+"autism education therapist","autism education consultant",
+"autism education teacher","autism education therapy",
+"ADHD specialist","ADHD therapist","ADHD consultant","ADHD instructor",
+"ADHD therapy","ADHD education","ADHD education expert",
+"ADHD education therapist","ADHD education consultant",
+"inclusive education expert","inclusive education therapist","inclusive education consultant",
+"inclusive education teacher","inclusive education therapy",
+"inclusive education training","inclusive education training expert",
+"special education coordinator","special education manager","special education teacher"
+]
+# Transportaion & Logistic
+keywords_pilot = ["pilot","havayolu","uçak pilotu","uçak kaptanı","havayolu pilotu","havayolu kaptanı",
+                  "pilot","airline","airplane pilot","airplane captain","airplane"]
+
+keywords_cabincrw = ["Kabin memuru","hostes","steward","stewardess","cabin crew","cabin attendant",
+                     "flight attendant","flight crew","flight steward","flight stewardess","flight hostess"]
+
+keywords_deniz_trafik = [
+    "Deniz trafik", "Deniz trafik kontrolörü","denizcilik kulesi operatörü","denizcilik sahası yöneticisi","denizcilik radar operatörü","liman operatörü",
+    "deniz ulaşımı koordinatörü","deniz güvenlik memuru","gemi yönlendirme uzmanı","denizcilik kontrolörü","kıyı istasyonu operatörü","su yolu yönetimi uzmanı",
+    "deniz trafiği analisti","deniz taşımacılığı uzmanı","denizcilik yöneticisi","marine traffic operator","port operator","maritime area manager",
+    "maritime transportation coordinator","marine safety officer","ship guidance expert","maritime controller","coastal station operator",
+    "ship routing specialist","waterway management specialist","marine traffic analyst","maritime transport expert","maritime manager","Kıyı ve Deniz Güvenliği",
+    "Liman işletmeciliği","Denizcilik ve Liman İşletmecili","Kıyı emniyeti"
+]
+
+keywords_hava_trafik = ["Hava trafik","hava trafik kontrolörü","kule görevlisi"," uçuş kulesi operatörü"," hava sahası yöneticisi"," radar operatörü"," uçuş güvenliği uzmanı",
+                       " havacılık yöneticisi"," hava trafik analisti"," iniş-kalkış koordinatörü"," uçuş kontrol uzmanı","air traffic controller"," tower operator"," flight tower operator"," airspace manager"," radar operator",
+                          " flight safety expert"," aviation manager"," air traffic analyst"," landing-takeoff coordinator"," flight control expert"          
+                          ]
+
+keywords_demiryolu = [
+    "Demiryolu Çalışanı","TCDD","TCDD Çalışanı","raylı sistemler uzmanı","Demiryolu mühendisi",
+    "tren yolu mühendisi","hızlı tren mühendisi","yht çalışanı","metro hattı mühendisi","Metro çalışanı","sinyalizasyon uzmanı",
+    "demiryolu altyapı mühendisi","Demiryolu","yük treni mühendisi","şehir içi raylı sistem uzmanı","demiryolu bakım mühendisi",
+    "railway engineer","Railway","rail systems","rail systems specialist","railroad engineer","railroad","high-speed train engineer",
+    "railroads","railway maintenance engineer"
+]
+
+Keywords_captaim = ["Ship captain","ship master","ship pilot","ship commander","ship officer",
+"ship navigator","ship helmsman","ship skipper","ship pilotage expert",
+"ship navigation expert","ship navigation officer","ship navigation specialist",
+"ship navigation commander","ship navigation master","ship navigation captain",
+"gemi kaptanı","gemi yöneticisi"]
+# Agriculture & Food
+Keywords_Agriculture_Ziraat = ["Tarım uzmanı","Tarım mühendisi","Tarım teknisyeni","tarım teknolojileri uzmanı","bitki koruma uzmanı",
+"tarım danışmanı","tarım ürünleri uzmanı","tarım ürünleri mühendisi","tarım ürünleri teknisyeni","tarım ürünleri teknolojileri uzmanı","tarım ürünleri danışmanı","tarım ürünleri teknisyeni",
+"sürdürülebilir tarım uzmanı","sürdürülebilir tarım mühendisi","sürdürülebilir tarım teknisyeni","sürdürülebilir tarım teknolojileri uzmanı","toprak bilimci","toprak mühendisi","toprak teknisyeni",
+"tarımsal sulama uzmanı","agroekoloji uzmanı","agroekoloji","sera teknolojileri uzmanı","sera uzmanı","sera mühendisi","sera danışmanı",
+"agricultural engineer","agricultural technician","agricultural technology expert",
+"plant protection expert","agricultural consultant","agricultural products expert",
+"agricultural products engineer","agricultural products technician",
+"agricultural products technology expert","agricultural products consultant",
+"sustainable agriculture expert","sustainable agriculture engineer","sustainable agriculture technician",
+"sustainable agriculture","soil scientist","soil engineer","soil technician","soil expert","soil consultant",
+"irrigation expert","agricultural irrigation expert","agroecology expert","agroecology engineer","ziraat mühendisi","ziraat teknisyeni","ziraat mühendisliği","ziraat teknisyenliği",
+"ziraat mühendisliği bölümü","ziraat teknisyenliği bölümü","ziraat mühendisliği mezunu",
+"ziraat teknisyenliği mezunu","ziraat mühendisliği diploması","ziraat teknisyenliği diploması",
+"ziraat mühendisliği alanında uzman","ziraat teknisyenliği alanında uzman",
+"ziraat mühendisliği alanında danışmanlık","ziraat teknisyenliği alanında danışmanlık","tarım ekonomisti","tarım ekonomisi uzmanı","organik tarım uzmanı","gübreleme uzmanı",
+"gübre uzmanı","bitki hastalıkları uzmanı","bitki hastalıkları mühendisi","bitki hastalıkları teknisyeni","bitki hastalıkları teknolojileri uzmanı","bitki hastalıkları",
+"genetik tohum uzmanı","genetik tohum mühendisi","genetik tohum teknisyeni","genetik tohum teknolojileri uzmanı","genetik tohum danışmanı","agronomist","plant scientist",
+"field expert","agricultural economist","organic farming expert","fertilization specialist","fertilizer expert","plant diseases expert",
+"plant diseases engineer","plant diseases technician","plant diseases technology expert",
+"plant diseases consultant","genetic seed expert","genetic seed engineer"
+]
+
+Keywords_Gıda_Mühendisi = ["Gıda mühendisi","gıda mühendisliği","gıda teknolojisi uzmanı","gıda teknolojisi mühendisi",
+"gıda teknolojisi teknisyeni","gıda teknolojileri uzmanı","gıda teknolojileri mühendisi",
+"gıda teknolojileri teknisyeni","gıda mühendisliği uzmanı","gıda mühendisliği mühendisi",
+"besin mühendisliği uzmanı","besin mühendisliği mühendisi","besin mühendisliği teknisyeni",
+"gıda mühendisliği teknisyeni","gıda mühendisliği teknolojileri uzmanı",
+"gıda üretim uzmanı","gıda üretim mühendisi","gıda üretim teknisyeni",
+"endüstriyel gıda mühendisi","beslenme analisti","gıda işleme uzmanı","food engineer",
+"food technology expert","food technology engineer","food technology technician",
+"food technology specialist","food engineering expert","food engineering engineer",
+"food engineering technician","food engineering specialist",
+"food engineering technology expert","food engineering technology engineer","food safety expert",
+"industrial food engineer","nutrition analyst","food processing expert"
+]
+
+Keywords_Ascı = ["Aşçı","şef aşçı","aşçı yardımcısı","aşçıbaşı","aşçılık uzmanı","aşçılık eğitmeni",
+"şef aşçı yardımcısı","aşçılık teknisyeni","aşçılık teknolojileri uzmanı",
+"aşçılık teknolojileri mühendisi","aşçılık teknolojileri teknisyeni",
+"aşçılık teknolojileri eğitmeni","aşçılık teknolojileri danışmanı","Cooker",
+"chef","cooking expert","cooking instructor","mutfak şefi","baş aşçı",
+"mutfak yöneticisi","kitchen manager","kitchen supervisor","restoran aşçısı",
+"gastronomi uzmanı","gastronomi eğitmeni","gastronomi danışmanı",
+"tatlı şefi","head chef","cooking technician","cooking technology expert",
+"desert chef","patisserie chef","pastry chef","kitchen chef","restaurant chef",
+]
+
+Keywords_Mevsimlik = ["Mevsimlik işçi","mevsimlik tarım işçisi","mevsimlik tarım işçiliği",
+                      "tarım işçisi","hasat işçisi","tarlada çalışan","sezonluk tarım işçisi"
+                      "bağ-bahçe işçisi","mevsimlik sebze toplayıcısı","mevsimlik meyve toplayıcısı",
+                      "fide dikim işçisi","fide dikim işçiliği","seasonal worker","seasonal agricultural worker",
+                        "seasonal agricultural work","agricultural worker","harvest worker",
+                        "field worker","seasonal field worker","seasonal vegetable picker",
+                        "seasonal fruit picker","seedling planting worker",
+                        "seedling planting work","seasonal agricultural laborer",
+                        "seasonal farm worker","seasonal farm laborer","vineyard-garden worker",
+                        "fruit picker","vegetable picker","seedling planter"
+]
+
+Keywords_Ciftci = ["Çiftçi","tarım işçisi","çiftçilik uzmanı","çiftçilik eğitmeni","farmer",
+                   "organik tarımcı","organik çiftçi","meyve bahçesi sahibi","ekolojik tarımcı",
+                   "sürdürülebilir tarımcı","sürdürülebilir çiftçi","sustainable farmer",
+                   "küçük çiftlik sahibi","küçük çiftlik yöneticisi","organic farmer","vegetable producer",
+                    "fruit producer","crop producer","livestock farmer","orchard owner","Sera Sahibi",
+                    "greenhouse owner","ecological farmer","small farm owner"
+]
+
+Keywords_Orman_Müh = ["Orman Mühendisi","Orman Mühendisliği","ekosistem uzmanı","ekosistem mühendisi",
+"orman mühendisliği uzmanı","orman mühendisliği mühendisi","orman mühendisliği teknisyeni",
+"orman mühendisliği teknolojileri uzmanı","orman mühendisliği teknolojileri mühendisi",
+"ağaçlandırma uzmanı","ağaçlandırma mühendisi","ağaçlandırma teknisyeni",
+"sürdürülebilir ormancılık uzmanı","orman ekolojisti","kereste mühendisi",
+"forestry engineer","forestry engineering","ecosystem expert","ecosystem engineer",
+"ecosystem specialist","forest engineering expert","forest engineering engineer",
+"afforestation expert","afforestation engineer","afforestation technician",
+"forest ecologist","sustainable forestry expert","sustainable forestry engineer"
+]
+
+Keywords_Su_Ürünleri = ["Su ürünleri mühendisi","su ürünleri mühendisliği","su ürünleri teknisyeni",
+"su ürünleri teknolojileri uzmanı","su ürünleri teknolojileri mühendisi",
+"su ürünleri teknolojileri teknisyeni","su ürünleri mühendisliği uzmanı",
+"sucul ekosistem uzmanı","su ürünleri uzmanı","sucul ekosistem mühendisi","sucul ekosistem teknisyeni",
+"akuakültür mühendisi","akuakültür uzmanı","akuakültür teknisyeni","akuakültür teknolojileri uzmanı",
+"deniz biyoloğu","su kaynakları yöneticisi","fisheries engineer","aquatic ecosystem specialist",
+ "aquaculture engineer","aquaculture expert","aquaculture technician"
+ ]
+
+# Blockchain & Kripto & Dijital Dönüşüm
+keywords_blockchain_kripto = ["blockchain uzmanı"," blok zinciri analisti"," web3 uzmanı"," kripto para uzmanı"," kripto para analisti",
+                       " kripto para danışmanı"," kripto para yöneticisi"," kripto para geliştiricisi"," kripto para programcısı",
+                       " blockchain expert"," blockchain analyst"," web3 expert"," cryptocurrency expert"," cryptocurrency analyst",
+                       " cryptocurrency consultant"," cryptocurrency manager"," cryptocurrency developer"," cryptocurrency programmer",
+                       " akıllı kontrat geliştirici"," defi analisti"," NFT uzmanı"," merkeziyetsiz finans uzmanı"," blockchain danışmanı",
+                       " kripto güvenlik analisti"," web3 specialist"," smart contract developer"," defi analyst"," NFT expert",
+                       " decentralized finance expert"," blockchain consultant"," cryptocurrency security analyst",
+                       "bitcoin uzmanı"," ethereum uzmanı"," binance uzmanı"," solana uzmanı"," polkadot uzmanı"," cardano uzmanı",
+                       " ripple uzmanı"," litecoin uzmanı"," dogecoin uzmanı"," bitcoin"," ethereum"," binance"," solana"," polkadot",
+                       " cardano"," ripple"," litecoin"," dogecoin"," bitcoin expert"," ethereum expert"," binance expert"," solana expert",
+                       " polkadot expert"," cardano expert"," ripple expert"," litecoin expert"," dogecoin expert"," blockchain developer"
+                       "altcoin uzmanı","altcoin analisti","altcoin danışmanı","altcoin yöneticisi","altcoin geliştiricisi"
+                          ]
+
+Keywords_digital_transformation = ["dijital dönüşüm uzmanı","dijital dönüşüm analisti","dijital dönüşüm danışmanı",
+"dijital dönüşüm yöneticisi","dijital dönüşüm geliştiricisi","dijital dönüşüm programcısı",
+"dijital dönüşüm stratejisti","dijital dönüşüm lideri","dijital dönüşüm yöneticisi",
+"dijital dönüşüm uzmanı","dijital dönüşüm eğitmeni","dijital dönüşüm koçu",
+"digital transformation expert","digital transformation analyst",
+"digital transformation consultant","digital transformation manager",
+"digital transformation developer","digital transformation programmer",
+"digital transformation strategist","digital transformation leader",
+"digital transformation"
+]
+
+# Law & Security
+keywords_lawyer = ["Avukat","hukuk","hukukçu","avukatlık","avukatlık bürosu","hukuk bürosu","hukuk danışmanı",
+                   "hukuk danışmanlığı","avukatlık hizmetleri","hukuk hizmetleri","hukuk uzmanı","hukuk analisti",
+                   "lawyer","law","legal professional","law office","legal office","legal advisor",
+                   "legal consultancy","law services","legal services","legal expert","legal analyst","savunma avukatı",
+                   "Baro","baro avukatı","baro başkanı","baro başkanlığı","baro yönetimi","baro yönetim kurulu",
+                   "Boşanma avukatı","avukatı","boşanma davası","boşanma davası avukatı","boşanma avukatı"," boşanma avukatı"," boşanma davası avukatı",
+                   "Şirket avukatı","Ticaret Hukuk","Ticaret avukatı",
+                   "ticaret hukuku avukatı","ticaret hukuku uzmanı","ticaret hukuku danışmanı","ticaret hukuku analisti",
+                   "hukuki danışman","trade lawyer","trade law","trade lawyer","trade law expert","trade law consultant",
+                   "divorce lawyer","divorce case lawyer","divorce attorney","divorce case attorney","divorce attorney",
+                     "divorce case attorney","company lawyer","company law","company lawyer","company law expert",
+]
+
+Keywords_judge = ["Hakim","yargıç","mahkeme","mahkeme başkanı","mahkeme hakimi","yargıç",
+                  "Judge","judge","court","court president","court judge","court magistrate",
+                  "appeal court judge","court of appeals judge","court of appeals magistrate","court of appeals magistrate",
+                  "Yargıtay Üyesi","Yargıtay Hakimi","Yargıtay Yargıcı","Yargıtay Mahkemesi","Yargıtay Üst Mahkeme",
+                  "Yargıtay Başkanı","Yargıtay Başkanlığı","Yargıtay Üst Mahkeme Başkanı","Yargıtay Üst Mahkeme Yargıcı",
+                  "Danıştay Üyesi","Danıştay Hakimi","Danıştay Yargıcı","Danıştay Mahkemesi","Danıştay Üst Mahkeme",
+                  "Danıştay Başkanı","Danıştay Başkanlığı","Danıştay Üst Mahkeme Başkanı","Danıştay Üst Mahkeme Yargıcı",
+                  "Anayasa Mahkemesi Üyesi","Anayasa Mahkemesi Hakimi","Anayasa Mahkemesi Yargıcı",
+                  "AIHM","Avrupa İnsan Hakları Mahkemesi","Avrupa İnsan Hakları Mahkemesi Üyesi",
+                    "Avrupa İnsan Hakları Mahkemesi Hakimi","Avrupa İnsan Hakları Mahkemesi Yargıcı",
+                    "European Court of Human Rights","European Court of Human Rights Judge",
+                    "European Court of Human Rights Magistrate","European Court of Human Rights Member",
+]
+
+Keywords_prosecutor = ["savcı","cumhuriyet savcısı","ceza savcısı","hukuk savcısı","savcılık",
+                     "prosecutor","public prosecutor","criminal prosecutor","civil prosecutor","prosecutorial office",
+                     "Hakim Adayı","yargıç adayı","stajyer savcı"
+                       ]
+
+Keywords_zabıta = ["zabıta","zabıta memuru","zabıta müdürü","zabıta amiri","zabıta teşkilatı",
+                     "zabıta teşkilatı memuru","zabıta teşkilatı amiri","zabıta teşkilatı müdürü","zabıta teşkilatı başkanı",
+                     "municipal police","municipal police officer","municipal police chief","municipal police director",
+                     "municipal police organization","municipal police organization officer","municipal police organization chief",
+                     "municipal police organization director","municipal police organization president","zabıtası",
+                     "zabıta müdürlüğü"
+    ]
+
+Keywords_policeofficer = ["polis","polis memuru","polis teşkilatı","polis teşkilatı memuru","polis teşkilatı amiri",
+                          "polis teşkilatı müdürü","polis teşkilatı başkanı","polis teşkilatı çalışanı","polis teşkilatı elemanı",
+                          "polis teşkilatı personeli","polis teşkilatı görevlisi","polis teşkilatı işçisi","polis teşkilatı çalışanı",
+                          "police officer","police organization","police organization officer","police organization chief",
+                          "police organization director","police organization president","police organization employee",
+                          "police organization staff","police organization personnel","police organization worker",
+                          "police organization employee","Polisi"
+    ]
+
+Keywords_gendarmerie = ["jandarma","jandarma memuru","jandarma teşkilatı","jandarma teşkilatı memuru","jandarma teşkilatı amiri",
+                     "jandarma teşkilatı müdürü","jandarma teşkilatı başkanı","jandarma teşkilatı çalışanı","jandarma teşkilatı elemanı",
+                     "jandarma teşkilatı personeli","jandarma teşkilatı görevlisi","jandarma teşkilatı işçisi","jandarma teşkilatı çalışanı",
+                     "gendarmerie officer","gendarmerie organization","gendarmerie organization officer","gendarmerie organization chief",
+                     "gendarmerie organization director","gendarmerie organization president","gendarmerie organization employee",
+                     "gendarmerie organization staff","gendarmerie organization personnel","gendarmerie organization worker",
+                     "gendarmerie organization employee","gendarmerie","Jandarma Genel Komutanlığı","Jandarma Genel Komutanlığı personeli",
+                     "Jandarma Genel Komutanlığı çalışanı","Jandarma Genel Komutanlığı amiri","Jandarma Genel Komutanlığı müdürü"
+    ]
+
+Keywords_Military = ["asker","askeri personel","askeri uzman","askeri mühendis","askeri pilot","askeri subay",
+                     "askeri astsubay","askeri uzman erbaş","askeri mühendis","askeri pilot","askeri subay",
+                     "askeri astsubay","askeri uzman erbaş","askeri mühendis","askeri pilot","askeri subay",
+                     "askeri astsubay","askeri uzman erbaş","military officer","military personnel",
+                     "military specialist","military engineer","military pilot","military officer",
+                     "military non-commissioned officer","military expert sergeant","Uzman Çavvuş",
+                     "Albay","Yüzbaşı","Teğmen","Kıdemli Başçavuş","Başçavuş","Çavuş","Onbaşı",
+                     "Milli savunma Bakanlığı","Türk Silahlı Kuvvetleri","TSK üyesi","TSK personeli",
+                        "Türk Silahlı Kuvvetleri personeli","Türk Silahlı Kuvvetleri çalışanı","Türk Silahlı Kuvvetleri uzmanı",
+    ]
+
+Keywords_fireman = ["itfaiyeci","itfaiye","yangın güvenliği uzmanı","yangın güvenliği mühendisi","yangın güvenliği teknisyeni",
+                    "yangın güvenliği uzmanı","yangın güvenliği analisti","yangın güvenliği danışmanı","yangın güvenliği yöneticisi",
+                    "itfaiye uzmanı","itfaiye mühendisi","itfaiye teknisyeni","itfaiye analisti","itfaiye danışmanı",
+                    "itfaiye yöneticisi","firefighter","fire department","fire safety expert","fire safety engineer",
+                    "fire safety technician","fire safety analyst","fire safety consultant","fire safety manager",
+                    "fire department expert","fire department engineer","fire department technician",
+                    "fire department analyst","fire department consultant","fire department manager"
+    ]
+
+Keywırds_security = ["güvenlik","güvenlik görevlisi","güvenlik uzmanı","güvenlik mühendisi","güvenlik teknisyeni",
+           "güvenlik analisti","güvenlik danışmanı","güvenlik yöneticisi","güvenlik uzmanı",
+           "security officer","security expert","security engineer","security technician",
+           "security analyst","security consultant","security manager",
+    ]
+
+Keywords_adli = ["adli tıp uzmanı","adli tıp mühendisi","adli tıp analisti","adli tıp danışmanı","adli tıp yöneticisi",
+                 "adli tıp uzmanı","forensic expert","forensic engineer","forensic analyst",
+                 "forensic consultant","forensic manager","forensic expert","kriminalist",
+                  "kriminal mühendis","kriminal analist","kriminal danışman","kriminal yöneticisi",
+                  "criminologist","criminal engineer","criminal analyst","criminal consultant",
+    ]
+                  
+                  
+# Science & Research
+keywords_astrofizik = ["astrofizik uzmanı","astrofizik mühendisi","astrofizik analisti","astrofizik danışmanı",
+"astrofizik yöneticisi","astrofizik uzmanı","astrophysics expert","astrophysics engineer",
+"gökbilimci","gökbilim mühendis","gökbilim analisti","gökbilim danışmanı","gökbilim yöneticisi",
+"astrophysicist","astrophysics engineer","astrophysics analyst",
+"astrophysics consultant","astrophysics manager","astrophysics expert",
+"uzay bilimci","uzay bilimleri uzmanı","kozmolog", "kozmoloji uzmanı",
+"astronomi araştırmacısı","yıldız fiziği uzmanı","karadelik araştırmacısı",
+"gezegen bilimci","teleskop gözlemcisi","galaksi uzmanı","astrophysicist",
+"astronomer","space scientist","cosmologist","cosmology expert",
+"astronomy researcher","stellar physicist","black hole researcher","planetary scientist",
+"black hole researcher","planetary scientist","telescope observer","galaxy expert"
+]
+
+Keywords_Kimyager = ["kimyager","kimya mühendisi","kimya uzmanı","kimya analisti","kimya danışmanı",
+"kimya yöneticisi","kimya uzmanı","kimyasal mühendis","kimyasal analist",
+"kimyasal danışman","kimyasal yöneticisi","kimyasal uzman",
+"chemical engineer","chemical expert","chemical analyst","chemical consultant",
+"chemical manager","chemical expert","kimya araştırmacısı","organik kimya uzmanı",
+"analitik kimyager","analitik kimya uzmanı","inorganik kimyager","inorganik kimya uzmanı",
+"fiziksel kimyager","fiziksel kimya uzmanı","biyokimyager","biyokimya uzmanı",
+"farmasötik kimyager","biyokimya mühendisi","polimer kimyageri","kimyasal araştırmacı",
+"organic chemist","analytical chemist","inorganic chemist","pharmaceutical chemist",
+"polymer chemist","chemical researcher","chemical engineer","biochemist","chemical researcher"
+]
+
+Keywords_Biyolog = ["biyolog","biyoloji uzmanı","biyoloji mühendisi","biyoloji analisti","biyoloji danışmanı",
+"biyoloji yöneticisi","biyoloji uzmanı","biyolojik mühendis","biyolojik analist","mikrobiyolog",
+"mikrobiyoloji uzmanı","mikrobiyoloji mühendisi","mikrobiyoloji analisti","zoologist","zoolog","zoolog uzmanı",
+"botanik mühendisi","botanik analisti","biyoteknoloji uzmanı","biyoteknoloji mühendisi","biyoteknoloji analisti","genetik araştırmacı",
+"biyoloğu","biologist","biology expert","biology engineer","biology analyst",
+"biology consultant","biology manager","biology expert","biological engineer",
+"biological analyst","microbiologist","microbiology expert","microbiology engineer",
+"microbiology analyst","zoologist","zoology expert","zoology engineer",
+"botany expert","biotechnology expert","moleküler biyolog",
+"molecular biologist","biotechnology engineer","biotechnology analyst",
+"biotechnology engineer","biotechnology analyst",
+"microbiologist","biologist"
+]
+
+Keywords_Genetik_Müh = ["genetik mühendisliği uzmanı","genetik mühendisliği mühendisi","genetik mühendisliği analisti",
+                        "genetik mühendisliği danışmanı","genetik mühendisliği yöneticisi","genetik",
+                        "genetic engineering expert","genetic engineering engineer",
+                        "genetic engineering analyst","genetic engineering consultant",
+                        "genetics","DNA bilimci","DNA uzmanı","DNA analisti","DNA danışmanı","DNA yöneticisi",
+                        "DNA Expert","DNA engineer","DNA analyst","DNA consultant",
+                        "DNA Scientist","genetik kod uzmanı","genetik kod mühendisi","genetik kod analisti",
+                        "genetik kod analizcisi","genetik kod danışmanı","genetik kod yöneticisi",
+                        "genetic code expert","genetic code engineer","genetic code analyst",
+                        "genetic code consultant","genetic code manager",
+                        "genetic code scientist","genetik araştırmacı","genetik bilimci",
+                        "moleküler genetikçi","gen terapisti","klonlama uzmanı","clone expert",
+                        "clone scientist","CRISPR araştırmacısı","CRISPR uzmanı",
+                        "CRISPR analisti","CRISPR danışmanı","CRISPR yöneticisi",
+                        "CRISPR engineer","CRISPR consultant","CRISPR manager",
+                        "CRISPR","CRISPR scientist","CRISPR researcher","genetic researcher",
+                        "genom uzmanı","genom analisti","genom danışmanı","genom yöneticisi",
+                        "genom engineer","genome expert","genome analyst","genome consultant",
+                        "genome manager","genome scientist","genetic researcher",
+                        "genetic engineer","genetic analyst","genetic consultant","genetic manager",
+                        "genetic scientist","genetic researcher","genetic engineer","molecular geneticist",
+                        "molecular genetic engineer","molecular genetic analyst",
+                        "molecular genetic consultant","molecular genetic manager",
+                        "gene therapist","cloning expert","cloning scientist",
+                        "cloning analyst","cloning consultant","cloning manager"
+]
+
+Keywords_Fizik = ["fizik uzmanı","fizik mühendisi","fizik analisti","fizik danışmanı","fizik yöneticisi",
+"fizik uzmanı","fizik mühendisliği uzmanı","fizik mühendisliği mühendisi",
+"fizik mühendisliği analisti","fizik mühendisliği danışmanı","fizik mühendisliği yöneticisi",
+"fizik mühendisliği uzmanı","fizik mühendisliği analisti","fizik mühendisliği danışmanı","teorik fizikçi",
+"deneysel fizikçi","uygulamalı fizikçi","kuantum fizikçisi","nükleer fizikçi",
+"kuantım fizik uzmanı","kuantum fizik mühendisi","kuantum fizik analisti",
+"kuantum fizik danışmanı","kuantum fizik yöneticisi","kuantum fizik uzmanı",
+"kuantum fizikçisi","yüksek enerji fizikçisi","parçacık fiziği","parçaçık fiziği uzmanı",
+"parçaçık fiziği","parçacık fiziği mühendisi","parçacık fiziği analisti",
+"optik fizikçi","optik fizik uzmanı","optik fizik mühendisi",
+"optik fiziği","elektromanyetik uzmanı","elektromanyetik mühendis","elektromanyetik analisti",
+"mekanik fizikçi", "mekanik fizik uzmanı","mekanik fizik mühendisi",
+"mekanik fiziği","termodinamik fizikçi","termodinamik fizik uzmanı",
+"termodinamik fizik mühendisi","termodinamik fiziği",
+"plazma fizikçisi","plazma fizik uzmanı","plazma fizik mühendisi",
+"plazma fiziği","fizik araştırmacısı","fizik bilimci","physicist",
+"theoretical physicist","experimental physicist","applied physicist",
+"quantum physicist","nuclear physicist","quantum physics expert",
+"quantum physics engineer","quantum physics analyst",
+"experimental physicist","applied physicist","quantum physics expert",
+"quantum physics engineer","quantum physics analyst",
+"quantum physicist","high energy physicist","particle physicist",
+"optical physicist","optical physics expert","optical physics engineer",
+"electromagnetics expert","mechanical physicist","plasma physicist"
+"mechanical physics expert","mechanical physics engineer",
+"thermodynamic physicist","thermodynamic physics expert"
+]
+
+Keywords_Matematik = ["matematik uzmanı","matematik mühendisi","matematik analisti","matematik danışmanı",
+"matematik yöneticisi","matematik uzmanı","matematik mühendisliği uzmanı",
+"uygulamalı matematikçi","uygulamalı matematik uzmanı","uygulamalı matematik mühendisi",
+"sayı teorisyeni","sayı teorisi uzmanı","sayı teorisi mühendisi",
+"geometri uzmanı","geometri mühendisi","geometri analisti",
+"geometri danışmanı","geometri yöneticisi","geometri uzmanı",
+"matematiksel istatistikçi","matematiksel istatistik uzmanı","matematiksel istatistik mühendisi",
+"diferansiyel denklemler uzmanı","diferansiyel denklemler mühendisi",
+"diferansiyel denklemler","mathematician","mathematics expert",
+"mathematics engineer","mathematics analyst","mathematics consultant",
+"mathematics manager","mathematics expert","mathematics engineering expert",
+"applied mathematician","applied mathematics expert","applied mathematics engineer",
+"number theorist","number theory expert","number theory engineer",
+"geometry expert","geometry engineer","geometry analyst",
+"geometry consultant","geometry manager","geometry expert",
+"mathematical statistician","mathematical statistics expert",
+"mathematical statistics engineer","differential equations expert",
+"differential equations engineer","differential equations analyst",
+"differential equations consultant","differential equations manager",
+"financial mathematician","finansal matematikçi"
+]
+
+Keywords_İstatistik = ["istatistik uzmanı","istatistik mühendisi","istatistik analisti",
+"istatistik danışmanı","istatistik yöneticisi","istatistik uzmanı",
+"istatistik mühendisliği uzmanı","istatistik mühendisliği mühendisi",
+"istatistik mühendisliği analisti","istatistik mühendisliği danışmanı",
+"istatistik mühendisliği yöneticisi","istatistik mühendisliği uzmanı",
+"olasılık teorisyeni","olasılık teorisi uzmanı",
+"olasilik uzmanı","olasılık mühendisi","olasılık analisti",
+"ekonometrisyen","istatistikçi","istatistik","ekonometri",
+"büyük veri analisti","hipotez testi","istatistiksel modelleme uzmanı",
+"istatistiksel modelleme mühendisi","istatistiksel modelleme analisti",
+"data analyst","statistics expert","statistics engineer",
+"statistics analyst","statistics consultant","statistics manager",
+"statistcian","probability expert","econometrician",
+"big data analyst","hypothesis testing",
+"statistical modeling expert","statistical modeling engineer",
+"statistical modeling analyst","statistical modeling consultant",
+"econometrist"
+]
+
+Keywords_Economics = ["ekonomist","ekonomi uzmanı","ekonomi mühendisi","ekonomi analisti",
+"ekonomi danışmanı","ekonomi yöneticisi","ekonomi uzmanı",
+"ekonomi mühendisliği uzmanı","ekonomi mühendisliği mühendisi",
+"ekonomi mühendisliği analisti","ekonomi mühendisliği danışmanı",
+"ekonomi mühendisliği yöneticisi","ekonomi mühendisliği uzmanı",
+"makroekonomist","makroekonomi uzmanı","makroekonomi mühendisi",
+"makroekonomi","mikroekonomist","mikroekonomi uzmanı","mikroekonomi mühendisi",
+"mikroekonomi analisti","mikroekonomi danışmanı","mikroekonomi yöneticisi",
+"mikroekonomi","finansal analist","finansal danışman","finansal yöneticisi",
+"finansal uzmanı","finansal mühendis","finansal mühendislik",
+"davranışsal ekonomist","kalkınma ekonomisi","kalkınma ekonomisti",
+"uluslararası ekonomi uzmanı","uluslararası ekonomi mühendisi",
+"uluslararası ekonomi analisti","uluslararası ekonomi danışmanı",
+"para politikası uzmanı","para politikası mühendisi","para politikası",
+"ekonomi danışmanı","ekonomi yöneticisi","ekonomi uzmanı",
+"economist","economics expert","economics engineer",
+"economics analyst","economics consultant","economics manager",
+"economics expert","economics engineering expert",
+"macroeconomist","macroeconomics expert","macroeconomics engineer",
+"macroeconomics analyst","macroeconomics consultant",
+"macroeconomics manager","macroeconomics expert",
+"microeconomist","microeconomics expert","microeconomics engineer",
+"microeconomics analyst","microeconomics consultant",
+"microeconomics manager","microeconomics expert",
+"financial analyst","financial consultant","financial manager",
+"financial expert","financial engineer","financial engineering",
+"behavioral economist","development economics","development economist",
+"international economics expert","international economics engineer",
+"international economics analyst","international economics consultant",
+"monetary policy expert","monetary policy engineer","monetary policy analyst",
+"monetary policy consultant","monetary policy manager",
+"monetary policy expert","economic consultant","economic manager"
+]
+
+Keywords_nörolog = ["nörolog","nöroloji uzmanı","nöroloji mühendisi","nöroloji analisti",
+                    "sinir uzmanı","nörobilimci","nörobilim uzmanı","nörobilim mühendisi",
+                    "nörobilim","bilişsel nörobilimci","bilişsel nörobilim uzmanı","bilişsel nörobilim mühendisi",
+                    "bilişsel nörobilim","nöroloji araştırmacısı","nöroloji bilimci","nöropsikoloji uzmanı",
+                    "sinir ağı araştırmacısı","yapay zeka sinir bilimcisi","sinir ağları",
+                    "sinir ağı uzmanı","sinir ağı mühendisi","sinir ağı analisti",
+                    "EEG analisti","EEG uzmanı","EEG mühendisi","EEG danışmanı","bilişsel nörobilimci",
+                    "neuroscientist","neurologist","neurology expert",
+                    "neurology engineer","neurology analyst","neurology consultant",
+                    "neurology manager","neurology expert","neuroscience expert",
+                    "neuroscience engineer","neuroscience analyst","neuroscience consultant",
+                    "neuroscience manager","neuroscience expert","cognitive neuroscientist",
+                    "cognitive neuroscience expert","cognitive neuroscience engineer",
+                    "cognitive neuroscience analyst","cognitive neuroscience consultant",
+                    "cognitive neuroscience manager","cognitive neuroscience expert",
+                    "neuroscience researcher","neuroscience scientist","neuropsychologist","neuropsychology expert","neuropsychology engineer",
+                    "neuropsychology analyst","neuropsychology consultant","neuropsychology manager","neuropsychology expert","neural network researcher","artificial intelligence neuroscientist",
+                    "neural networks expert","neural networks engineer","neural networks analyst","neural networks consultant",
+                    "neural networks manager","neural networks expert","neural scientist","brain researcher","brain scientist",
+                    "AI neuroscientist","EEG","EEG Analyst","EEG Expert","EEG Engineer","EEG Consultant","EEG Manager",
+                    "EEG Specialist","EEG Researcher","EEG Scientist","cognitive neuroscientist"
+]
+
+Keywords_Analyst = ["analist","analiz uzmanı","analiz mühendisi","analiz analisti",
+                    "iş analisti","iş analisti","iş analizi uzmanı",
+                    "iş analizi mühendisi","iş analizi analisti","iş analizi danışmanı",
+                    "analist","strateji analisti","yatırım analisti","veri analisti",
+                    "finansal analist","pazar analisti","pazar araştırmacısı",
+                    "pazar analisti","pazar araştırmacısı","pazar araştırması uzmanı",
+                    "finans analisti","finansal analist","operasyonel analist",
+                    "veri analisti","data analyst","business analyst","business analysis expert",
+                    "business analysis engineer","business analysis analyst",
+                    "business analysis consultant","business analysis manager",
+                    "business analysis","analisti","strategy analyst","investment analyst",
+                    "technical analyst"
+]
+# Finance & Business
+Keywords_Accountant = ["muhasebeci","muhasebe uzmanı","muhasebe mühendisi","muhasebe analisti",
+                        "muhasebe danışmanı","muhasebe yöneticisi","muhasebe uzmanı",
+                        "muhasebe mühendisliği uzmanı","muhasebe mühendisliği mühendisi",
+                        "muhasebe mühendisliği analisti","muhasebe mühendisliği danışmanı",
+                        "muhasebe mühendisliği yöneticisi","muhasebe mühendisliği uzmanı",
+                        "finansal muhasebeci","finansal muhasebe uzmanı","finansal muhasebe mühendisi",
+                        "finansal muhasebe analisti","finansal muhasebe danışmanı",
+                        "finansal muhasebe yöneticisi","finansal muhasebe uzmanı",
+                        "financial accountant","accountant expert","accounting engineer",
+                        "accounting analyst","accounting consultant","accounting manager",
+                        "accounting expert","accounting engineering expert",
+                        "financial accountant expert","financial accounting engineer",
+                        "financial accounting analyst","financial accounting consultant",
+                        "financial accounting manager","bilanço uzmanı","bilanço danışmanı",
+                        "bilanço analisti","mali tablolar uzmanı","mali tablolar mühendisi",
+                        "mali tablo uzmanı","mali tablo","maliyet muhasebecisi",
+                        "maliyet muhasebesi","tax accountant","tax accounting","tax accountant expert",
+                        "balance sheet analyst"
+    ]
+
+Keywords_Banking = ["bankacı","bankacılık uzmanı","bankacılık mühendisi","bankacılık analisti",
+                    "banka","bankacılık danışmanı","bankacılık yöneticisi","bankacılık uzmanı","mevduat uzmanı",
+                    "kredi uzmanı","banka analisti","banka danışmanı","banka yöneticisi",
+                    "banking expert","banking engineer","banking analyst","banking consultant",
+                    "banking manager","banking expert","banking engineering expert",
+                    "banking analyst","banking consultant","banking manager",
+                    "banker","branch manager","branch analyst","branch consultant",
+                    "loan officer","loan analyst","loan consultant",
+                    "loan manager","credit analyst","credit consultant","corporate banker",
+                    "retail banker","investment banker","wealth manager",
+                    "investment analyst","investment consultant","investment manager"
+]
+
+Keywords_sigorta = ["sigorta uzmanı","sigorta mühendisi","sigorta analisti","sigorta danışmanı",
+                    "sigorta yöneticisi","sigorta uzmanı","sigorta mühendisliği uzmanı",
+                    "sigorta mühendisliği mühendisi","sigorta mühendisliği analisti",
+                    "sigorta mühendisliği danışmanı","sigorta mühendisliği yöneticisi",
+                    "sigorta mühendisliği uzmanı","insurance expert","insurance engineer",
+                    "insurance analyst","insurance consultant","insurance manager",
+                    "insurance expert","insurance engineering expert",
+                    "insurance analyst","insurance consultant","insurance manager",
+                    "actuary","actuarial expert","actuarial engineer",
+                    "actuarial analyst","actuarial consultant","actuarial manager",
+                    "actuarial expert","poliçe","poliçe uzmanı","poliçe mühendisi","poliçe analisti",
+                    "sigortası","insurance specialist"]
+
+Keywords_mali= ["Mali müşavir","mali müşavirlik","mali müşavirlik uzmanı","mali müşavirlik mühendisi",
+                "serbest muhasebeci","serbest muhasebecilik","serbest muhasebecilik uzmanı","certified public accountant (CPA)"
+                "CPA","certified public accountant","certified accountant"
+                ]
+
+Keywords_proje = ["proje yöneticisi","proje uzmanı","proje mühendisi","proje analisti",
+                  "Agile proje yöneticisi","Agile proje uzmanı","Agile proje mühendisi",
+                    "Agile proje analisti","Scrum proje yöneticisi","Scrum proje uzmanı",
+                    "Agile & Scrum", "project manager","project expert",
+                    "project engineer","project analyst","Agile project manager",
+                    "project cordinator","project coordinator","project management expert",
+                    "business development specialist","business development",
+                    "Agile methadology","Scrum methodology","project management"
+]
+
+Keywords_satış = ["satış uzmanı","satış mühendisi","satış analisti","satış danışmanı",
+                  "satış temsilcisi","sales representative","sales expert",
+                  "customer representative","müşteri temsilcisi","sales specialist",
+                  "customer relations expert","müşteri ilişkileri","müşteri ilişkileri uzmanı",
+                  "customer relations"
+]
+
+Keywords_marketing_manager = ["pazarlama yöneticisi","pazarlama uzmanı","pazarlama mühendisi",
+                              "pazarlama müdürü","dijital pazarlama müdürü","marketing manager",
+                              "digital marketing expert", "digital marketing manager","content manager"]
+
+Keywords_Logistic_manager = ["lojistik yöneticisi","lojistik uzmanı","lojistik mühendisi",
+                             "lojistik müdürü","lojistik analisti","lojistik danışmanı",
+                             "lojistik uzmanı","supply chain manager","supply chain expert",
+                             "supply chain engineer","supply chain analyst","supply chain consultant",
+                             "supply chain manager","logistic expert","logistic manager",
+                             "transport planner","transportation manager","transportation expert",
+                             "logistics coordinator","logistics manager","logistics"
+]
+
+Keywords_Ecommerce_specialist = ["e-ticaret uzmanı","e-ticaret mühendisi","e-ticaret analisti",
+                                 "e-ticaret yöneticisi","e-ticaret danışmanı",
+                                 "Amazon US","Amazon UK","Amazon DE","Amazon FR",
+                                 "Amazon expert","Trendyol uzmanı","e-ticaret",
+                                 "e-commerce","online satış","pazaryeri","pazaryeri uzmanı",
+                                 "marketplace manager","e-commerce marketplace","Amazon uzmanı",
+                                 "Esty uzmanı","eBay uzmanı","Esty"]
+
+# Media & Art
+Keywords_journalist = ["gazeteci","gazetecilik uzmanı","gazetecilik mühendisi","gazetecilik analisti",
+                       "haber muhabiri","haber yazarı","haber editörü","editör","gazete editörü",
+                       "köşe yazarı","basın mensubu", "araştırmacı gazeteci","journalist",
+                       "reporter","news writer","news editor","editor","newspaper editor",
+                       "news writer","editor","columnist","press member","editorial writer",
+                        "investigative journalist","investigative reporter","news anchor","Anadolu ajansı"
+]
+
+Keywords_Writer = ["yazar","yazarlık uzmanı","yazarlık mühendisi","yazarlık analisti",
+                "kitap yazarı","roman yazarı","deneme yazarı","şiir yazarı",
+                 "makale yazarı","hikaye yazarı","senarist","yazılı içerik uzmanı",
+                 "writer","author","content writer","novelist",
+                 "poet","essayist","article writer","story writer",
+                 "literary critic","literary editor","literary agent","literary writer"
+]
+
+Keywords_Advertising = ["reklam uzmanı","reklamcı","ajans çalışanı","kampanya yöneticisi",
+                        "kampanya uzmanı","reklam mühendisi","reklam analisti",
+                        "medya planlama","kreatif yönetmen","reklam yazarı","reklam tasarımcısı",
+                        "kreatif direktör","marka yönetimi","marka yöneticisi","marka uzmanı",
+                        "advertiser","advertising manager","advertising expert",
+                        "ad specialist","ad campaign manager","ad campaign expert",
+                        "media planner","advertising strategist"
+]
+
+Keywırds_translator = ["çevirmen","çeviri uzmanı","çeviri mühendisi","çeviri analisti",
+                       "tercüman","mütercim","tercüme uzmanı","tercüme mühendisi",
+                       "mütercim tercüman","translator","translation expert",
+                       "translate"
+]
+
+Keywords_iç_mimar = ["iç mimar","iç mimarlık uzmanı","iç mimarlık","mekan tasarımı",
+                     "mekan tasarım uzmanı","interior designer","interior architecture expert",
+                     "decorator","interior design expert","interior architecture",
+                     "decoration expert","residental design","residential architecture",
+                     "architectural designer","architectural design expert",
+                     "architecture"
+]
+
+Keywords_graphic_designer = ["grafik tasarımcı","grafik tasarım uzmanı","grafik tasarım mühendisi",
+                             "grafik tasarım","logo tasarımcısı","logo tasarım","logo tasarımı",
+                             "tipografi","adobe expert","photoshop expert","illustrator expert",
+                                "graphic designer","graphic design expert","logo designer",
+                                "adobe illustrator","adobe photoshop","adobe indesign",
+                                "visual designer","visual design expert","visual design",
+                                "art director","typography expert","typography designer"
+]
+
+Keywords_moda_designer = ["moda tasarımcısı","moda tasarım uzmanı","moda tasarım mühendisi",
+                          "moda tasarım","stilist","stilist uzmanı","stilist danışmanı",
+                          "kıyafet tasarımcısı","kıyafet tasarım uzmanı","kıyafet tasarımı",
+                          " haute couture","fashion designer","defile","fashion show",
+                          "tekstil mühendisi","tekstil uzmanı","modelist",
+                          "stylist","fashion stylist","fashion expert",
+                          "textile designer","textile engineer","clothing designer",
+                          "trend analyst","haute couture designer"
+]
+
+Keywords_radio_tv = ["radyo","radyo programcısı","tv programcısı","radyo sunucusu",
+                     "radyo ve televizyon","radyo ve televizyon uzmanı","radyo ve televizyon",
+                     "televizyon sunucusu","spiker","radyo spikeri","tv spikeri",
+                     "radyo programı","radio presenter","tv presenter","radio producer",
+                    "tv producer","radio and television","radio news anchor","news anchor"
+]
+
+Keywords_yönetmen_art_director = ["yönetmen","film yönetmeni","dizi yönetmeni","belgesel yönetmeni",
+                     "yardımcı yönetmen","sanat yönetmeni","kısa film yönetmeni",
+                     "yönetmeni","film director", "assistant director","documentary director",
+                        "short film director","art director","tiyatro yönetmeni",
+                        "theater director","theatre director","tv series director",
+                        "stage director","tiyatro yönetmeni"
+]
+
+Keywords_movie_producer = ["film yapımcısı","film prodüktörü","film yapımcıları",
+                          "film prodüktörü","film yapımcıları","film yapımcıları",
+                          "film yapımcıları","film yapımcıları","film yapımcıları",
+                          "movie producer","movie production","movie producer",
+                          "movie production company","movie production team",
+                          "movie production manager","yapımcı","short film producer",
+                          "documentary producer","film production manager","post prodüksiyon",
+                          "tv show producer","tv series producer","tv show production",
+                        "tv series production","film yapımcıları","film yapımcıları",
+                        "media production","media production manager","media producer",
+                        "cinema producer","cinema production","cinema production manager",
+]
+
+Keywords_oyuncu = ["oyuncu","dizi oyuncusu","film oyuncusu","tiyatro oyuncusu",
+                   "yardımcı oyuncu","aktör","aktris","actor","actress","theatre actor",
+                     "theatre actress","film actor","film actress","tv actor",
+                     "tv actress","theatre performer","film performer","tv performer",
+                     "tv series actor","tv series actress","theatre performer",
+                        "film performer","tv performer","theatre performer",
+                        "movie actor","movie actress","movie performer",
+                        "stage actor","stage actress","stage performer",
+                        "stage performer","theatrical performer","theatrical actor",
+                        "performans sanatçısı","performance artist"
+]
+
+Keywords_senarist = ["senarist","senaryo yazarı","senaryo uzmanı","senaryo","film senaristi",
+                     "film senaryosu","dizi senaristi","dizi senaryosu",
+                        "senaryo danışmanı","senaryo analisti","senaryo editörü",
+                        "screenwriter","screenplay writer","screenplay expert",
+                        "scriptwriter","script expert","script analyst",
+                        "film writer","film scriptwriter","film screenplay writer",
+                        "movie writer","movie scriptwriter","movie screenplay writer",
+                        "tv series writer","tv series scriptwriter","tv series screenplay writer"
+]
+
+Keywords_sosyal_medya = ["sosyal medya uzmanı","sosyal medya mühendisi","sosyal medya analisti",
+                         "içerik üretimi","sosyal medya içerik üretimi","sosyal medya içerik yöneticisi",
+                         "sosyal medya içerik üretimi","influencer","sosyal medya fenomeni",
+                         "sponsorlu içerik","marka işbirlikleri","marka işbirliği","topluluk yönetim",
+                         "blog yazarlığı","blog yazarı","blog yazımı","influencer marketing","influencer marketing expert",
+                         "kişisel blog","kişisel blog yazarı","kişisel blog yazımı",
+                         "blogger","blogging","bloğu","social media expert","content creator",
+                         "digital writer","niche writer"
+]                        
+# Other
+Keywords_esnaf = ["esnaf","esnaflık uzmanı","küçük işletme sahibi","küçük işletme",
+                  "mahalle esnafı","bakkal","market sahibi","market işletmecisi",
+                  "dükkan sahibi","esnaflar odası","esnaf odası üyesi",
+                  "pazar esnafı","pazar tezgahı sahibi","tradesperson","tradesman",
+                  "small business owner","small business","local tradesperson",
+                  "market vendor","market owner","local business owner"
+]
+
+Keywords_garson = ["garson","garsonluk uzmanı","restoran garsonu","restoran çalışanı",
+                   "şef garson","komi","servis elemanı","basrista","otel garsonu",
+                   "yemek servisi elemanı","waiter","waitress","restaurant server",
+                     "restaurant staff","head waiter","commis","service staff",
+                        "hotel waiter","food service staff","food service worker",
+                        "food service employee","food service attendant",
+                        "cafe server","cafe attendant","cafe employee",
+                        "restaurant attendant","restaurant employee"
+]
+
+Keywords_Kasiyer_Reyon_Görevlisi = ["kasiyer","market kasiyeri","kasiyeri","reyon görevlisi",
+                                     "market elemanı","market çalışanı","reyon elemanı",
+                                     "cashier","cash register","cashier expert",
+                                     "store staff","store employee","payment counter"
+]
+
+Keywords_temizlik = ["temizlikçi","temizlik uzmanı","temizlik mgörevlisi","ISS Çalışanı",
+                     "ofis temizlikçisi","temizlikçisi","temizlik elemanı",
+                     "hijyen uzmanı","ev temizlikçisi","ev temizliği",
+                        "temizlik hizmetleri","temizlik hizmetleri uzmanı","apartman temizlikçisi",
+                        "apartman temizliği","dezenfeksiyon hizmetileri","dezenfektan uzmanı",
+                        "temizlik personeli","hygiene specialist","home cleaning staff",
+                        "disinfection worker","factory cleaning staff","cleaning staff",
+                        "cleaner"
+]
+
+Keywords_şöför_kurye = ["şoför","kurye","moto kurye","motorlu kurye",
+                        "kurye şoförü","kurye uzmanı","özel kurye",
+                        "özel şoför","özel şoförlük","özel şoförlük uzmanı",
+                        "delivery driver","delivery expert","delivery person",
+                        "makam şoförü","makam şoförü","executive driver",
+                        "chauffeur","chauffeur expert","chauffeur driver",
+                        "şöförü","drivers","driver expert","taksi şöförü",
+                        "nakliyeci","nakliyatçı","nakliyat şöförü",
+                        "otobüs şöförü","courier","bus driver",
+                        "taxi driver","truck driver","van driver",
+                        "taxi driver","cargo stuff"
+]
+
+Keywords_berber = ["berber","kuaför","berberi","kuaförü","saç tasarımcısı",
+                   "güzellik uzmanı","güzellik merkezi çalışanı","güzellik merkezi uzmanı",
+                   "güzellik salonu","hair care","hair stylist","hairdresser",
+                   "barber","man barber","beauty expert","beauty salon",
+                   "women barber","beauty salon staff","beauty salon employee",
+                   "makeup artist","makyaj uzmanı","makyaj sanatçısı",
+                   "makeup artist","makeup expert","makeup specialist",
+                   "men's barber", "women's barber","hair salon",
+                   "hair salon staff","hair salon employee","hair stylist"
+                   ]
+
+Keywords_terzi = ["terzi","terzilik","gelinlik terzisi","gelinlik tasarımcısı",
+                  "dikim ustası","kostüm tasarımcısı","kostüm tasarım uzmanı",
+                  "elbise tamircisi","terzisi","ayakkabı tamircisi",
+                  "ayakkabıcı","lostra","ayakkabı tamiri","shooe repair",
+                    "tailor","dressmaker","seamstress","costume designer",
+                    "costume maker","dress designer","dress repairer",
+                    "dressmaker","costume maker","costume repairer",
+                    "shoe repairer","shoe maker","shoe designer"]
+
+Keywords_fabrika = ["fabrika","fabrika çalışanı","fabrika işçisi","fabrika işçisi",
+                    "sanayi çalışanı","sanayi işçisi","üretim işçisi",
+                    "montaj hattı işçisi","endüstriyel işçi","makine işçisi",
+                    "makine operatörü","fabrika teknik elemanı","factory worker",
+                    "production operator","production worker","assembly line worker",
+                    "industrial worker","machine operator","machine technician",
+                    "manufacturing worker","production line staff", "fabrication worker"
+]
+
+Keywords_inşaat_işçisi = ["inşaat işçisi","inşaat ustası","sıvacı","duvarcı",
+                          "duvar ustası","kalıp ustası","kalıp işçisi",
+                            "beton işçisi","beton ustası","demirci",
+                            "demir ustası","elektrikçi","elektrik ustası",
+                            "elektrik işçisi","beton döküm","şantiye çalışanı",
+                            "şantiye elemanı","ustası","yol yapım işçisi",
+                            "vinç operatörü","forklift operatörü",
+                            "yapı ustası","iskele kurulum işçisi",
+                            "construction worker","concrete pouring laborer",
+                            "site worker","construction site worker",
+                            "electrician","electrician worker","construction",
+                            "bricklayer","ironworker","road construction worker",
+                            "crane operator","forklift operator","building specialist",
+                            "scaffold assembly worker"
+]
+
+Keywords_marangoz_mobilya = ["marangoz","mobilya ustası","mobilya işçisi",
+                            "mobilya montajcısı","ahşap işçisi","ahşap ustası",
+                            "ahşap montajcısı","ahşap montaj işçisi","woodworker",
+                            "carpenter","furniture maker","furniture assembler",
+                            "woodworking expert","ahşap işleme","mobilya ustası",
+                            "woodworking expert","woodworking"
+]
+
+Keywords_oto_tamir = ["oto tamircisi","oto bakım uzmanı","oto elektrikçisi","oto elektrik ustası",
+                      "kaportacı","kaporta ustası","kaporta işçisi",
+                      "motor ustası","motor tamircisi","motor işçisi",
+                      "lastikçi","lastik ustası","lastik işçisi",
+                      "oto mekanik","oto mekanik uzmanı","oto mekanik ustası",
+                      "otomobil tamircisi","otomobil bakım uzmanı",
+                      "otomobil bakım ustası","otomobil ustası","araç tamir uzmanı",
+                      "araç tamir ustası","auto mechanic","auto repair expert",
+                      "auto repair technician","auto repair worker",
+                      "vehicle repair expert","engine mechanic",
+                      "engine repair expert","vehicle repair technician",
+                      "auto electrician","auto electrician expert","car service worker","auto maintenance technician",
+                      "auto maintenance","otomobil yedek parça"]
+
+
+
+
+
