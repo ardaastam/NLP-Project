@@ -1,0 +1,14 @@
+import re
+# Regex desenlerini oluştur
+keyword_patterns = {
+    occupation: re.compile(r'(?<!\w)(?:' + '|'.join(map(re.escape, keywords)) + r')(?!\w)', re.IGNORECASE)
+    for occupation, keywords in keywords_dict_eng.items()
+}
+# Occupation tahminini yapan fonksiyon
+def assign_occupation(text):
+    matched_occupations_eng = {occupation for occupation, pattern in keyword_patterns.items() if pattern.search(text)}
+    return matched_occupations_eng if matched_occupations_eng else {"Undefined"}
+# Metni kontrol et ve occupationları atamak için yeni bir kolon oluştur
+politus_occupation_list['Occupation'] = politus_occupation_list['user_description'].apply(assign_occupation)  # Burada 'description' kolonu kullanılıyor
+# Undefined olmayanları filtrele
+politus_eng = politus_occupation_list[politus_occupation_list['Occupation'].apply(lambda x: 'Undefined' not in x)]
