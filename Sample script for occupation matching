@@ -1,0 +1,8 @@
+# Sample script for occupation matching
+
+def match_occupation(description, keyword_dict):
+    for job, keywords in keyword_dict.items():
+        for keyword in keywords:
+            if keyword.lower() in description.lower():
+                return job
+    return "Undefined"
