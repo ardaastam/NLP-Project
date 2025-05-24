@@ -163,3 +163,20 @@ occupation_isei_score = {
     "Carpenter & Furniture Maker": 57,  # Teknik beceri gerektiren ustalık
     "Auto Mechanic": 60  # Teknik beceri, tamir uzmanlığı – orta alt seviye
 }
+
+def get_isei_score(occupation_set):
+    scores = [occupation_isei_score.get(occ) for occ in occupation_set if occ in occupation_isei_score]
+    return max(scores) if scores else None  # birden fazla varsa en yüksek skoru al
+
+politus_all["ISEI_Score"] = politus_all["Occupation"].apply(get_isei_score)
+
+def assign_ses_class(score):
+    if pd.isnull(score):  # None veya NaN kontrolü
+        return "Unknown"
+    elif score >= 75:
+        return "High SES"
+    elif score >= 65:
+        return "Middle SES"
+    else:
+        return "Low SES"
+
