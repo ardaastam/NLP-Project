@@ -1,0 +1,165 @@
+# ISEI (International Socio-Economic Index of Occupational Status)
+| Veri Kaynağı           | Uygulama                                                        |
+| ---------------------- | --------------------------------------------------------------- |
+| ISEI skorları          | Mümkün olduğunca doğrudan ISEI tablosundan                      |
+| Uymayan yeni meslekler | Benzer mesleklerle **denk sayılan skor** atanarak uyarlanmıştır |
+| Karma roller           | (örn. "Blockchain Developer") — yazılım + finans ortalaması     |
+
+
+| Meslek               | ISEI | Gerekçe                                                |
+| -------------------- | ---- | ------------------------------------------------------ |
+| Professor            | 82   | Yüksek eğitim, yüksek prestij                          |
+| Software Engineering | 78   | Yüksek gelir, yüksek talep, orta eğitim                |
+| Teacher              | 66   | Üniversite mezunu, kamu sektörü, orta prestij          |
+| Nurse                | 62   | Meslek yüksek okulu / lisans, kamu hizmeti             |
+| Lawyer               | 80   | Lisans + baro eğitimi, yüksek prestij, yüksek gelir    |
+| Sales Specialist     | 60   | Lise–lisans arası değişen, düşük-orta gelir, yaygınlık |
+| Project Manager      | 74   | Orta-üst düzey yönetsel görev                          |
+| Farmer               | 40   | Düşük eğitim, düşük prestij, düşük gelir ortalaması    |
+| Pilot                | 80   | Özel eğitim, yüksek gelir, yüksek prestij              |
+
+# ISEI SCORE
+
+| Kriter               | Değerlendirme                                                                                        |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Akademik Temel**   | ISEI literatürüne büyük ölçüde uygun                                                                 |
+| **Uyarlanabilirlik** | Modern mesleklere güzelce genişletilmiş                                                              |
+| **Denge**            | Farklı sektörler arası dengeli dağılım sağlanmış                                                     |
+| **Yaygınlık**        | Sosyal medyada sık görülen hibrit mesleklere karşı duyarlı (ör. "Data Science", "Digital Marketing") |
+
+
+occupation_isei_score = {
+
+     # Finans & Business
+    "Accountant": 71,
+    "Banking": 73,
+    "Insurance": 70,
+    "Financial Consultant": 78,
+    "Project Manager": 74,
+    "Sales": 60,
+    "Customer Relations Specialist": 58,
+    "Marketing Manager": 72,
+    "Logistic Manager": 66,
+    "E-commerce Specialist": 65,
+    "Social Media Specialist": 62,
+
+
+    # Eğitim sektörü
+    "Teacher": 66,
+    "Scholar": 78,
+    "Professor": 82,
+    "Research Assistant": 70,
+    "Psychologist": 75,
+    "Speech Therapist": 70,
+    "Special Education Teacher": 65,
+
+    # Bilim ve araştırma
+    "Astrophysicist": 80,
+    "Chemist": 74,
+    "Biologist": 72,
+    "Genetic Engineer": 76,
+    "Physicist": 75,
+    "Mathematician": 74,
+    "Statistician": 73,
+    "Economist": 77,
+    "Neurologist": 84,
+    "Analyst": 70,
+
+    # Medya & sanat
+    "Journalist": 67,
+    "Writer": 70,
+    "Advertising": 65,
+    "Translator": 60,
+    "Interior Designer": 62,
+    "Graphic Designer": 60,
+    "Fashion Designer": 58,
+    "Radio & TV": 64,
+    "Director & Art Director": 66,
+    "Movie Producer": 68,
+    "Actor": 70,
+    "Actress": 70,
+    "Screenwriter": 67,
+    "Social Media": 55,
+
+    # Sağlık sektörü
+    "Uzman Doktor": 88,
+    "Aile Hekimi": 80,
+    "Hemşire": 65,
+    "Başhemşire": 70,
+    "Diyetisyen": 70,
+    "Diş Hekimi": 85,
+    "Eczacı": 78,
+    "Başhekim": 90,
+    "Cerrah": 90,
+    "Plastik Cerrah": 91,
+    "Ortopedi Cerrahı": 85,
+    "Jinekolog": 86,
+    "Pediatrist": 84,
+    "Veteriner Hekim": 73,
+    "Onkolog": 88,
+    "Spor Hekimi": 80,
+    "Fizyoterapist": 68,
+
+    # Blockchain & dijital
+    "Blockchain": 72,
+    "Digital Transformation": 70,
+
+    # Tarım, gıda, çevre
+    "Agriculture": 64,
+    "Food Engineer": 66,
+    "Chef": 65,
+    "Seasonal Worker": 40,
+    "Farmer": 45,
+    "Forestry Engineer": 60,
+    "Aquaculture Engineer": 60,
+
+    # Ulaşım ve kaptanlık
+    "Pilot": 85,
+    "Cabin Crew": 75,
+    "Marine Traffic": 62,
+    "Air Traffic": 68,
+    "Railway": 55,
+    "Ship Captain": 75,
+
+    # Hukuk ve güvenlik
+    "Lawyer": 80,
+    "Judge": 85,
+    "Prosecutor": 83,
+    "Police Officer": 65,
+    "Gendarmerie": 65,
+    "Military": 65,
+    "Fireman": 60,
+    "Security": 55,
+    "Zabıta": 50,
+    "Forensic Expert": 70,
+
+    # Mühendislik ve teknoloji
+    "Mechanical Engineering": 72,
+    "Electrical Engineering": 74,
+    "Construction Engineering": 60,
+    "Software Engineering": 78,
+    "Data Science": 76,
+    "Industrial Engineering": 73,
+    "Geological Engineering": 64,
+    "Cryptography Engineering": 75,
+    "Space Engineering": 80,
+    "Web Developer": 68,
+    "Environmental Engineering": 66,
+    "Mechatronic Engineering": 72,
+    "Game & App Developer": 67,
+    "Telecommunication Engineer": 70,
+    "Cybersecurity Expert": 75,
+
+
+    "Tradesperson": 60,  # Esnaf, zanaatkar → bağımsızlık + temel gelir
+    "Waiter": 50,  # Düşük eğitim, düşük prestij ama müşteri ilişkisi içerir
+    "Cashier & Store Clerk": 45,  # Temel iş gücü, orta alt sınıf hizmet sektörü
+    "Cleaner": 40,  # Eğitim düzeyi düşük, çoğunlukla geçici iş gücü
+    "Driver & Courier": 45,  # Kamyon/taksi/kuryelik → düşük eğitim, düşük prestij
+    "Barber & Hairdresser": 55,  # Teknik beceri var, esnaf kültürü
+    "Tailor & Dressmaker": 50,  # Usta–çırak geleneği, el zanaatı
+    "Factory Worker": 45,  # Fiziksel iş gücü, düşük eğitim, düşük özerklik
+    "Construction Worker": 57,  # Fiziksel iş gücü, geçici istihdam yaygın
+    "Carpenter & Furniture Maker": 57,  # Teknik beceri gerektiren ustalık
+    "Auto Mechanic": 60  # Teknik beceri, tamir uzmanlığı – orta alt seviye
+}
