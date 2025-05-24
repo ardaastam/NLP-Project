@@ -52,6 +52,12 @@ Millions of users publish their bios on social media without structured occupati
 
 ```bash
 pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+wordcloud
+plotly
+pycountry
 ```
 
 
